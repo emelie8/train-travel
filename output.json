@@ -1,0 +1,3937 @@
+{
+  "Trip": [
+    {
+      "Origin": {
+        "name": "Stockholm Centralstation",
+        "type": "ST",
+        "id": "A=1@O=Stockholm Centralstation@X=18058151@Y=59330136@U=1@L=740000001@",
+        "extId": "740000001",
+        "lon": 18.058151,
+        "lat": 59.330136,
+        "routeIdx": 0,
+        "prognosisType": "PROGNOSED",
+        "time": "23:17:00",
+        "date": "2023-01-18"
+      },
+      "Destination": {
+        "name": "Malmö Centralstation",
+        "type": "ST",
+        "id": "A=1@O=Malmö Centralstation@X=13000910@Y=55609456@U=1@L=740000003@",
+        "extId": "740000003",
+        "lon": 13.00091,
+        "lat": 55.609456,
+        "routeIdx": 10,
+        "prognosisType": "PROGNOSED",
+        "time": "06:05:00",
+        "date": "2023-01-19"
+      },
+      "ServiceDays": [
+        {
+          "planningPeriodBegin": "2023-01-14",
+          "planningPeriodEnd": "2023-04-16",
+          "sDaysR": "mån - fre",
+          "sDaysI": "utom 10. feb, 6. t o m 10. apr 2023; och 22., 29. jan, 5., 18., 25. feb, 4., 11., 18. mar, 1. apr",
+          "sDaysB": "7EFDFBE3F7EFDFBF7CFDC1E0"
+        }
+      ],
+      "LegList": {
+        "Leg": [
+          {
+            "Origin": {
+              "name": "Stockholm Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Stockholm Centralstation@X=18058151@Y=59330136@U=1@L=740000001@",
+              "extId": "740000001",
+              "lon": 18.058151,
+              "lat": 59.330136,
+              "routeIdx": 0,
+              "prognosisType": "PROGNOSED",
+              "time": "23:17:00",
+              "date": "2023-01-18"
+            },
+            "Destination": {
+              "name": "Hässleholm Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Hässleholm Centralstation@X=13763141@Y=56157762@U=1@L=740000006@",
+              "extId": "740000006",
+              "lon": 13.763141,
+              "lat": 56.157762,
+              "routeIdx": 5,
+              "prognosisType": "PROGNOSED",
+              "time": "04:49:00",
+              "date": "2023-01-19"
+            },
+            "Notes": {
+              "Note": [
+                {
+                  "value": "Obligatorisk platsbokning",
+                  "key": "AF",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 5,
+                  "txtN": "Obligatorisk platsbokning"
+                },
+                {
+                  "value": "WiFi",
+                  "key": "AW",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 5,
+                  "txtN": "WiFi"
+                },
+                {
+                  "value": "Sov- och liggvagn",
+                  "key": "SL",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 5,
+                  "txtN": "Sov- och liggvagn"
+                },
+                {
+                  "value": "Ej luftkonditionering",
+                  "key": "SY",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 5,
+                  "txtN": "Ej luftkonditionering"
+                }
+              ]
+            },
+            "JourneyDetailRef": { "ref": "1|43027|0|1|18012023" },
+            "JourneyStatus": "P",
+            "Product": [
+              {
+                "icon": { "res": "prod_gen" },
+                "name": "Nattåg 1",
+                "internalName": "Nattåg 1",
+                "displayNumber": "1",
+                "num": "1",
+                "line": "1",
+                "lineId": "1074900000006",
+                "catOut": "JNT",
+                "catIn": "JNT",
+                "catCode": "2",
+                "cls": "4",
+                "catOutS": "JNT",
+                "catOutL": "Nattåg",
+                "operatorCode": "74",
+                "operator": "SJ",
+                "admin": "074___",
+                "routeIdxFrom": 0,
+                "routeIdxTo": 5,
+                "matchId": "S23C001 CST-M NT;S23C001 CST-M NT;1"
+              }
+            ],
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Stockholm Centralstation",
+                  "id": "A=1@O=Stockholm Centralstation@X=18058151@Y=59330136@U=1@L=740000001@",
+                  "extId": "740000001",
+                  "routeIdx": 0,
+                  "lon": 18.058151,
+                  "lat": 59.330136,
+                  "depPrognosisType": "PROGNOSED",
+                  "depTime": "23:17:00",
+                  "depDate": "2023-01-18",
+                  "depDir": "Malmö Centralstation"
+                },
+                {
+                  "Notes": {
+                    "Note": [
+                      {
+                        "value": "Stannar endast för påstigande",
+                        "key": "text.realtime.stop.exit.disabled",
+                        "type": "R",
+                        "txtN": "Stannar endast för påstigande"
+                      }
+                    ]
+                  },
+                  "name": "Norrköping Centralstation",
+                  "id": "A=1@O=Norrköping Centralstation@X=16183343@Y=58596625@U=1@L=740000007@",
+                  "extId": "740000007",
+                  "routeIdx": 1,
+                  "lon": 16.183343,
+                  "lat": 58.596625,
+                  "depTime": "01:06:00",
+                  "depDate": "2023-01-19",
+                  "alighting": false
+                },
+                {
+                  "Notes": {
+                    "Note": [
+                      {
+                        "value": "Stannar endast för påstigande",
+                        "key": "text.realtime.stop.exit.disabled",
+                        "type": "R",
+                        "txtN": "Stannar endast för påstigande"
+                      }
+                    ]
+                  },
+                  "name": "Linköping Centralstation",
+                  "id": "A=1@O=Linköping Centralstation@X=15624960@Y=58416634@U=1@L=740000009@",
+                  "extId": "740000009",
+                  "routeIdx": 2,
+                  "lon": 15.62496,
+                  "lat": 58.416634,
+                  "depTime": "02:08:00",
+                  "depDate": "2023-01-19",
+                  "alighting": false
+                },
+                {
+                  "name": "Nässjö Centralstation",
+                  "id": "A=1@O=Nässjö Centralstation@X=14693983@Y=57652443@U=1@L=740000140@",
+                  "extId": "740000140",
+                  "routeIdx": 3,
+                  "lon": 14.693983,
+                  "lat": 57.652443,
+                  "depTime": "03:11:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "03:11:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Alvesta station",
+                  "id": "A=1@O=Alvesta station@X=14556322@Y=56898778@U=1@L=740000004@",
+                  "extId": "740000004",
+                  "routeIdx": 4,
+                  "lon": 14.556322,
+                  "lat": 56.898778,
+                  "depTime": "03:57:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "03:57:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Hässleholm Centralstation",
+                  "id": "A=1@O=Hässleholm Centralstation@X=13763141@Y=56157762@U=1@L=740000006@",
+                  "extId": "740000006",
+                  "routeIdx": 5,
+                  "lon": 13.763141,
+                  "lat": 56.157762,
+                  "arrTime": "04:49:00",
+                  "arrDate": "2023-01-19"
+                }
+              ]
+            },
+            "JourneyDetail": {
+              "dayOfOperation": "2023-01-18",
+              "ref": "1|43027|0|1|18012023"
+            },
+            "idx": 0,
+            "name": "Nattåg 1",
+            "number": "1",
+            "category": "JNT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Malmö Centralstation",
+            "directionFlag": "1",
+            "duration": "PT5H32M"
+          },
+          {
+            "Origin": {
+              "name": "Hässleholm Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Hässleholm Centralstation@X=13763141@Y=56157762@U=1@L=740000006@",
+              "extId": "740000006",
+              "lon": 13.763141,
+              "lat": 56.157762,
+              "routeIdx": 0,
+              "prognosisType": "PROGNOSED",
+              "time": "05:06:00",
+              "date": "2023-01-19"
+            },
+            "Destination": {
+              "name": "Malmö Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Malmö Centralstation@X=13000910@Y=55609456@U=1@L=740000003@",
+              "extId": "740000003",
+              "lon": 13.00091,
+              "lat": 55.609456,
+              "routeIdx": 10,
+              "prognosisType": "PROGNOSED",
+              "time": "06:05:00",
+              "date": "2023-01-19"
+            },
+            "Notes": {
+              "Note": [
+                {
+                  "value": "Pågatågen",
+                  "key": "VG",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 10,
+                  "txtN": "Pågatågen"
+                },
+                {
+                  "value": "Endast 2 klass",
+                  "key": "AA",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 10,
+                  "txtN": "Endast 2 klass"
+                }
+              ]
+            },
+            "JourneyDetailRef": { "ref": "1|8231|0|1|19012023" },
+            "JourneyStatus": "P",
+            "Product": [
+              {
+                "icon": { "res": "prod_gen" },
+                "name": "Länstrafik - Tåg 1257",
+                "internalName": "Länstrafik - Tåg 1257",
+                "displayNumber": "1257",
+                "num": "1257",
+                "line": "1257",
+                "lineId": "1276000000186",
+                "catOut": "JLT",
+                "catIn": "JLT",
+                "catCode": "4",
+                "cls": "16",
+                "catOutS": "JLT",
+                "catOutL": "Länstrafik - Tåg",
+                "operatorCode": "276",
+                "operator": "Skånetrafiken",
+                "admin": "276___",
+                "routeIdxFrom": 0,
+                "routeIdxTo": 10,
+                "matchId": "T23C001 CR-SI LT;T23C001 CR-SI LT;1257"
+              }
+            ],
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Hässleholm Centralstation",
+                  "id": "A=1@O=Hässleholm Centralstation@X=13763141@Y=56157762@U=1@L=740000006@",
+                  "extId": "740000006",
+                  "routeIdx": 0,
+                  "lon": 13.763141,
+                  "lat": 56.157762,
+                  "depPrognosisType": "PROGNOSED",
+                  "depTime": "05:06:00",
+                  "depDate": "2023-01-19",
+                  "depDir": "Simrishamn station"
+                },
+                {
+                  "name": "Sösdala station (Hässleholm kn)",
+                  "id": "A=1@O=Sösdala station (Hässleholm kn)@X=13680422@Y=56036272@U=1@L=740001334@",
+                  "extId": "740001334",
+                  "routeIdx": 1,
+                  "lon": 13.680422,
+                  "lat": 56.036272,
+                  "depTime": "05:14:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "05:14:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Tjörnarp station (Höör kn)",
+                  "id": "A=1@O=Tjörnarp station (Höör kn)@X=13629849@Y=56000316@U=1@L=740001611@",
+                  "extId": "740001611",
+                  "routeIdx": 2,
+                  "lon": 13.629849,
+                  "lat": 56.000316,
+                  "depTime": "05:18:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "05:18:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Höör station",
+                  "id": "A=1@O=Höör station@X=13541395@Y=55937023@U=1@L=740000185@",
+                  "extId": "740000185",
+                  "routeIdx": 3,
+                  "lon": 13.541395,
+                  "lat": 55.937023,
+                  "depTime": "05:24:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "05:23:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Stehag station (Eslöv kn)",
+                  "id": "A=1@O=Stehag station (Eslöv kn)@X=13394853@Y=55900814@U=1@L=740000952@",
+                  "extId": "740000952",
+                  "routeIdx": 4,
+                  "lon": 13.394853,
+                  "lat": 55.900814,
+                  "depTime": "05:30:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "05:30:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Eslöv station",
+                  "id": "A=1@O=Eslöv station@X=13305491@Y=55837719@U=1@L=740000260@",
+                  "extId": "740000260",
+                  "routeIdx": 5,
+                  "lon": 13.305491,
+                  "lat": 55.837719,
+                  "depTime": "05:36:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "05:36:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Örtofta station (Eslöv kn)",
+                  "id": "A=1@O=Örtofta station (Eslöv kn)@X=13243969@Y=55778929@U=1@L=740000961@",
+                  "extId": "740000961",
+                  "routeIdx": 6,
+                  "lon": 13.243969,
+                  "lat": 55.778929,
+                  "depTime": "05:41:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "05:41:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Stångby station (Lund kn)",
+                  "id": "A=1@O=Stångby station (Lund kn)@X=13200201@Y=55751153@U=1@L=740000834@",
+                  "extId": "740000834",
+                  "routeIdx": 7,
+                  "lon": 13.200201,
+                  "lat": 55.751153,
+                  "depTime": "05:45:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "05:45:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Lund Centralstation",
+                  "id": "A=1@O=Lund Centralstation@X=13186897@Y=55708094@U=1@L=740000120@",
+                  "extId": "740000120",
+                  "routeIdx": 8,
+                  "lon": 13.186897,
+                  "lat": 55.708094,
+                  "depTime": "05:52:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "05:50:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Hjärup station (Staffanstorp kn)",
+                  "id": "A=1@O=Hjärup station (Staffanstorp kn)@X=13136512@Y=55674151@U=1@L=740000942@",
+                  "extId": "740000942",
+                  "routeIdx": 9,
+                  "lon": 13.136512,
+                  "lat": 55.674151,
+                  "depTime": "05:56:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "05:56:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Malmö Centralstation",
+                  "id": "A=1@O=Malmö Centralstation@X=13000910@Y=55609456@U=1@L=740000003@",
+                  "extId": "740000003",
+                  "routeIdx": 10,
+                  "lon": 13.00091,
+                  "lat": 55.609456,
+                  "arrTime": "06:05:00",
+                  "arrDate": "2023-01-19"
+                }
+              ]
+            },
+            "JourneyDetail": {
+              "dayOfOperation": "2023-01-19",
+              "ref": "1|8231|0|1|19012023"
+            },
+            "idx": 1,
+            "name": "Länstrafik - Tåg 1257",
+            "number": "1257",
+            "category": "JLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Simrishamn station",
+            "directionFlag": "1",
+            "duration": "PT59M"
+          }
+        ]
+      },
+      "calculation": "INITIAL",
+      "TripStatus": { "hintCode": 0 },
+      "idx": 0,
+      "tripId": "C-0",
+      "ctxRecon": "¶HKI¶T$A=1@O=Stockholm Centralstation@L=740000001@a=128@$A=1@O=Hässleholm Centralstation@L=740000006@a=128@$202301182317$202301190449$JNT    1$$1$$$$$$§T$A=1@O=Hässleholm Centralstation@L=740000006@a=128@$A=1@O=Malmö Centralstation@L=740000003@a=128@$202301190506$202301190605$JLT 1257$$1$$$$$$¶KRCC¶#VE#1#",
+      "duration": "PT6H48M",
+      "rtDuration": "PT6H48M",
+      "checksum": "d753d26a_3",
+      "transferCount": 1
+    },
+    {
+      "Origin": {
+        "name": "Stockholm Centralstation",
+        "type": "ST",
+        "id": "A=1@O=Stockholm Centralstation@X=18058151@Y=59330136@U=1@L=740000001@",
+        "extId": "740000001",
+        "lon": 18.058151,
+        "lat": 59.330136,
+        "routeIdx": 0,
+        "prognosisType": "PROGNOSED",
+        "time": "23:17:00",
+        "date": "2023-01-18"
+      },
+      "Destination": {
+        "name": "Malmö Centralstation",
+        "type": "ST",
+        "id": "A=1@O=Malmö Centralstation@X=13000910@Y=55609456@U=1@L=740000003@",
+        "extId": "740000003",
+        "lon": 13.00091,
+        "lat": 55.609456,
+        "routeIdx": 8,
+        "prognosisType": "PROGNOSED",
+        "time": "06:48:00",
+        "date": "2023-01-19"
+      },
+      "ServiceDays": [
+        {
+          "planningPeriodBegin": "2023-01-14",
+          "planningPeriodEnd": "2023-04-16",
+          "sDaysR": "mån - fre",
+          "sDaysI": "utom 10. feb, 6. t o m 10. apr 2023; och 22., 29. jan, 5., 18., 25. feb, 4., 11., 18. mar, 1. apr",
+          "sDaysB": "7EFDFBE3F7EFDFBF7CFDC1E0"
+        }
+      ],
+      "LegList": {
+        "Leg": [
+          {
+            "Origin": {
+              "name": "Stockholm Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Stockholm Centralstation@X=18058151@Y=59330136@U=1@L=740000001@",
+              "extId": "740000001",
+              "lon": 18.058151,
+              "lat": 59.330136,
+              "routeIdx": 0,
+              "prognosisType": "PROGNOSED",
+              "time": "23:17:00",
+              "date": "2023-01-18"
+            },
+            "Destination": {
+              "name": "Malmö Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Malmö Centralstation@X=13000910@Y=55609456@U=1@L=740000003@",
+              "extId": "740000003",
+              "lon": 13.00091,
+              "lat": 55.609456,
+              "routeIdx": 8,
+              "prognosisType": "PROGNOSED",
+              "time": "06:48:00",
+              "date": "2023-01-19"
+            },
+            "Notes": {
+              "Note": [
+                {
+                  "value": "Obligatorisk platsbokning",
+                  "key": "AF",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 8,
+                  "txtN": "Obligatorisk platsbokning"
+                },
+                {
+                  "value": "WiFi",
+                  "key": "AW",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 8,
+                  "txtN": "WiFi"
+                },
+                {
+                  "value": "Sov- och liggvagn",
+                  "key": "SL",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 8,
+                  "txtN": "Sov- och liggvagn"
+                },
+                {
+                  "value": "Ej luftkonditionering",
+                  "key": "SY",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 8,
+                  "txtN": "Ej luftkonditionering"
+                }
+              ]
+            },
+            "JourneyDetailRef": { "ref": "1|43027|0|1|18012023" },
+            "JourneyStatus": "P",
+            "Product": [
+              {
+                "icon": { "res": "prod_gen" },
+                "name": "Nattåg 1",
+                "internalName": "Nattåg 1",
+                "displayNumber": "1",
+                "num": "1",
+                "line": "1",
+                "lineId": "1074900000006",
+                "catOut": "JNT",
+                "catIn": "JNT",
+                "catCode": "2",
+                "cls": "4",
+                "catOutS": "JNT",
+                "catOutL": "Nattåg",
+                "operatorCode": "74",
+                "operator": "SJ",
+                "admin": "074___",
+                "routeIdxFrom": 0,
+                "routeIdxTo": 8,
+                "matchId": "S23C001 CST-M NT;S23C001 CST-M NT;1"
+              }
+            ],
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Stockholm Centralstation",
+                  "id": "A=1@O=Stockholm Centralstation@X=18058151@Y=59330136@U=1@L=740000001@",
+                  "extId": "740000001",
+                  "routeIdx": 0,
+                  "lon": 18.058151,
+                  "lat": 59.330136,
+                  "depPrognosisType": "PROGNOSED",
+                  "depTime": "23:17:00",
+                  "depDate": "2023-01-18",
+                  "depDir": "Malmö Centralstation"
+                },
+                {
+                  "Notes": {
+                    "Note": [
+                      {
+                        "value": "Stannar endast för påstigande",
+                        "key": "text.realtime.stop.exit.disabled",
+                        "type": "R",
+                        "txtN": "Stannar endast för påstigande"
+                      }
+                    ]
+                  },
+                  "name": "Norrköping Centralstation",
+                  "id": "A=1@O=Norrköping Centralstation@X=16183343@Y=58596625@U=1@L=740000007@",
+                  "extId": "740000007",
+                  "routeIdx": 1,
+                  "lon": 16.183343,
+                  "lat": 58.596625,
+                  "depTime": "01:06:00",
+                  "depDate": "2023-01-19",
+                  "alighting": false
+                },
+                {
+                  "Notes": {
+                    "Note": [
+                      {
+                        "value": "Stannar endast för påstigande",
+                        "key": "text.realtime.stop.exit.disabled",
+                        "type": "R",
+                        "txtN": "Stannar endast för påstigande"
+                      }
+                    ]
+                  },
+                  "name": "Linköping Centralstation",
+                  "id": "A=1@O=Linköping Centralstation@X=15624960@Y=58416634@U=1@L=740000009@",
+                  "extId": "740000009",
+                  "routeIdx": 2,
+                  "lon": 15.62496,
+                  "lat": 58.416634,
+                  "depTime": "02:08:00",
+                  "depDate": "2023-01-19",
+                  "alighting": false
+                },
+                {
+                  "name": "Nässjö Centralstation",
+                  "id": "A=1@O=Nässjö Centralstation@X=14693983@Y=57652443@U=1@L=740000140@",
+                  "extId": "740000140",
+                  "routeIdx": 3,
+                  "lon": 14.693983,
+                  "lat": 57.652443,
+                  "depTime": "03:11:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "03:11:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Alvesta station",
+                  "id": "A=1@O=Alvesta station@X=14556322@Y=56898778@U=1@L=740000004@",
+                  "extId": "740000004",
+                  "routeIdx": 4,
+                  "lon": 14.556322,
+                  "lat": 56.898778,
+                  "depTime": "03:57:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "03:57:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "Notes": {
+                    "Note": [
+                      {
+                        "value": "Stannar endast för avstigande",
+                        "key": "text.realtime.stop.entry.disabled",
+                        "type": "R",
+                        "txtN": "Stannar endast för avstigande"
+                      }
+                    ]
+                  },
+                  "name": "Hässleholm Centralstation",
+                  "id": "A=1@O=Hässleholm Centralstation@X=13763141@Y=56157762@U=1@L=740000006@",
+                  "extId": "740000006",
+                  "routeIdx": 5,
+                  "lon": 13.763141,
+                  "lat": 56.157762,
+                  "arrTime": "04:49:00",
+                  "arrDate": "2023-01-19",
+                  "boarding": false
+                },
+                {
+                  "Notes": {
+                    "Note": [
+                      {
+                        "value": "Stannar endast för avstigande",
+                        "key": "text.realtime.stop.entry.disabled",
+                        "type": "R",
+                        "txtN": "Stannar endast för avstigande"
+                      }
+                    ]
+                  },
+                  "name": "Helsingborg Centralstation",
+                  "id": "A=1@O=Helsingborg Centralstation@X=12694261@Y=56044408@U=1@L=740000044@",
+                  "extId": "740000044",
+                  "routeIdx": 6,
+                  "lon": 12.694261,
+                  "lat": 56.044408,
+                  "arrTime": "06:04:00",
+                  "arrDate": "2023-01-19",
+                  "boarding": false
+                },
+                {
+                  "Notes": {
+                    "Note": [
+                      {
+                        "value": "Stannar endast för avstigande",
+                        "key": "text.realtime.stop.entry.disabled",
+                        "type": "R",
+                        "txtN": "Stannar endast för avstigande"
+                      }
+                    ]
+                  },
+                  "name": "Lund Centralstation",
+                  "id": "A=1@O=Lund Centralstation@X=13186897@Y=55708094@U=1@L=740000120@",
+                  "extId": "740000120",
+                  "routeIdx": 7,
+                  "lon": 13.186897,
+                  "lat": 55.708094,
+                  "arrTime": "06:32:00",
+                  "arrDate": "2023-01-19",
+                  "boarding": false
+                },
+                {
+                  "name": "Malmö Centralstation",
+                  "id": "A=1@O=Malmö Centralstation@X=13000910@Y=55609456@U=1@L=740000003@",
+                  "extId": "740000003",
+                  "routeIdx": 8,
+                  "lon": 13.00091,
+                  "lat": 55.609456,
+                  "arrPrognosisType": "PROGNOSED",
+                  "arrTime": "06:48:00",
+                  "arrDate": "2023-01-19"
+                }
+              ]
+            },
+            "JourneyDetail": {
+              "dayOfOperation": "2023-01-18",
+              "ref": "1|43027|0|1|18012023"
+            },
+            "idx": 0,
+            "name": "Nattåg 1",
+            "number": "1",
+            "category": "JNT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Malmö Centralstation",
+            "directionFlag": "1",
+            "duration": "PT7H31M"
+          }
+        ]
+      },
+      "calculation": "INITIAL",
+      "TripStatus": { "convenient": true, "hintCode": 0 },
+      "idx": 1,
+      "tripId": "C-1",
+      "ctxRecon": "¶HKI¶T$A=1@O=Stockholm Centralstation@L=740000001@a=128@$A=1@O=Malmö Centralstation@L=740000003@a=128@$202301182317$202301190648$JNT    1$$1$$$$$$¶KRCC¶#VE#1#",
+      "duration": "PT7H31M",
+      "rtDuration": "PT7H31M",
+      "checksum": "73145094_3"
+    },
+    {
+      "Origin": {
+        "name": "Stockholm Centralstation",
+        "type": "ST",
+        "id": "A=1@O=Stockholm Centralstation@X=18058151@Y=59330136@U=1@L=740000001@",
+        "extId": "740000001",
+        "lon": 18.058151,
+        "lat": 59.330136,
+        "time": "00:41:00",
+        "date": "2023-01-19"
+      },
+      "Destination": {
+        "name": "Malmö Centralstation",
+        "type": "ST",
+        "id": "A=1@O=Malmö Centralstation@X=13000910@Y=55609456@U=1@L=740000003@",
+        "extId": "740000003",
+        "lon": 13.00091,
+        "lat": 55.609456,
+        "routeIdx": 13,
+        "prognosisType": "PROGNOSED",
+        "time": "12:11:00",
+        "date": "2023-01-19"
+      },
+      "ServiceDays": [
+        {
+          "planningPeriodBegin": "2023-01-14",
+          "planningPeriodEnd": "2023-04-16",
+          "sDaysR": "inte varje dag",
+          "sDaysI": "18. jan t o m 30. mar 2023 ons, tor",
+          "sDaysB": "0C183060C183060C18300000"
+        }
+      ],
+      "LegList": {
+        "Leg": [
+          {
+            "Origin": {
+              "name": "Stockholm Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Stockholm Centralstation@X=18058151@Y=59330136@U=1@L=740000001@",
+              "extId": "740000001",
+              "lon": 18.058151,
+              "lat": 59.330136,
+              "time": "00:41:00",
+              "date": "2023-01-19"
+            },
+            "Destination": {
+              "name": "Stockholm Cityterminalen",
+              "type": "ST",
+              "id": "A=1@O=Stockholm Cityterminalen@X=18056371@Y=59330846@U=1@L=740000622@",
+              "extId": "740000622",
+              "lon": 18.056371,
+              "lat": 59.330846,
+              "time": "00:45:00",
+              "date": "2023-01-19"
+            },
+            "GisRef": {
+              "ref": "G|1|G@F|A=1@O=Stockholm Centralstation@X=18058151@Y=59330136@U=1@L=740000001@|A=1@O=Stockholm Cityterminalen@X=18056371@Y=59330846@U=1@L=740000622@|19012023|4100|4500|bf|ft@0@2000@120@1@100@1@@0@@@@@false@0@-1@0@-1@-1@$f@$f@$f@$f@$f@$§bt@0@2000@120@1@100@1@@0@@@@@false@0@-1@0@-1@-1@$f@$f@$f@$f@$f@$§tt@0@5000@120@1@100@1@@0@@@@@false@0@-1@0@-1@-1@$f@$f@$f@$f@$f@$§||||"
+            },
+            "GisRoute": { "dist": 260, "durS": "PT4M", "dirGeo": 0 },
+            "Product": [
+              {
+                "icon": { "res": "prod_walk" },
+                "name": "Promenad",
+                "internalName": "Promenad"
+              }
+            ],
+            "idx": 0,
+            "name": "Promenad",
+            "type": "WALK",
+            "duration": "PT4M",
+            "dist": 260
+          },
+          {
+            "Origin": {
+              "name": "Stockholm Cityterminalen",
+              "type": "ST",
+              "id": "A=1@O=Stockholm Cityterminalen@X=18056371@Y=59330846@U=1@L=740000622@",
+              "extId": "740000622",
+              "lon": 18.056371,
+              "lat": 59.330846,
+              "routeIdx": 1,
+              "prognosisType": "PROGNOSED",
+              "time": "00:45:00",
+              "date": "2023-01-19"
+            },
+            "Destination": {
+              "name": "Linköping Fjärrbussterminal",
+              "type": "ST",
+              "id": "A=1@O=Linköping Fjärrbussterminal@X=15618587@Y=58419430@U=1@L=740010955@",
+              "extId": "740010955",
+              "lon": 15.618587,
+              "lat": 58.41943,
+              "routeIdx": 3,
+              "prognosisType": "PROGNOSED",
+              "time": "03:25:00",
+              "date": "2023-01-19"
+            },
+            "Notes": {
+              "Note": [
+                {
+                  "value": "Obligatorisk platsbokning",
+                  "key": "AF",
+                  "type": "A",
+                  "routeIdxFrom": 1,
+                  "routeIdxTo": 3,
+                  "txtN": "Obligatorisk platsbokning"
+                },
+                {
+                  "value": "WiFi",
+                  "key": "AW",
+                  "type": "A",
+                  "routeIdxFrom": 1,
+                  "routeIdxTo": 3,
+                  "txtN": "WiFi"
+                }
+              ]
+            },
+            "JourneyDetailRef": { "ref": "1|95373|1|1|18012023" },
+            "JourneyStatus": "P",
+            "Product": [
+              {
+                "icon": { "res": "prod_gen" },
+                "name": "Expressbuss 421",
+                "internalName": "Expressbuss 421",
+                "displayNumber": "421",
+                "num": "421",
+                "line": "421",
+                "lineId": "1327040000016",
+                "catOut": "BXB",
+                "catIn": "BXB",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "BXB",
+                "catOutL": "Expressbuss",
+                "operatorCode": "327",
+                "operator": "Vy Bus4You",
+                "admin": "327___",
+                "routeIdxFrom": 1,
+                "routeIdxTo": 3,
+                "matchId": "401;400;421"
+              }
+            ],
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Stockholm Cityterminalen",
+                  "id": "A=1@O=Stockholm Cityterminalen@X=18056371@Y=59330846@U=1@L=740000622@",
+                  "extId": "740000622",
+                  "routeIdx": 1,
+                  "lon": 18.056371,
+                  "lat": 59.330846,
+                  "depTime": "00:45:00",
+                  "depDate": "2023-01-19",
+                  "depDir": "Linköping Fjärrbussterminal"
+                },
+                {
+                  "name": "Norrköping Centralstation",
+                  "id": "A=1@O=Norrköping Centralstation@X=16183343@Y=58596625@U=1@L=740000007@",
+                  "extId": "740000007",
+                  "routeIdx": 2,
+                  "lon": 16.183343,
+                  "lat": 58.596625,
+                  "depTime": "02:45:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "02:45:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Linköping Fjärrbussterminal",
+                  "id": "A=1@O=Linköping Fjärrbussterminal@X=15618587@Y=58419430@U=1@L=740010955@",
+                  "extId": "740010955",
+                  "routeIdx": 3,
+                  "lon": 15.618587,
+                  "lat": 58.41943,
+                  "arrPrognosisType": "PROGNOSED",
+                  "arrTime": "03:25:00",
+                  "arrDate": "2023-01-19"
+                }
+              ]
+            },
+            "JourneyDetail": {
+              "dayOfOperation": "2023-01-18",
+              "ref": "1|95373|1|1|18012023"
+            },
+            "idx": 1,
+            "name": "Expressbuss 421",
+            "number": "421",
+            "category": "BXB",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Linköping Fjärrbussterminal",
+            "directionFlag": "1",
+            "duration": "PT2H40M"
+          },
+          {
+            "Origin": {
+              "name": "Linköping Fjärrbussterminal",
+              "type": "ST",
+              "id": "A=1@O=Linköping Fjärrbussterminal@X=15618587@Y=58419430@U=1@L=740010955@",
+              "extId": "740010955",
+              "lon": 15.618587,
+              "lat": 58.41943,
+              "time": "03:25:00",
+              "date": "2023-01-19"
+            },
+            "Destination": {
+              "name": "Linköping Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Linköping Centralstation@X=15624960@Y=58416634@U=1@L=740000009@",
+              "extId": "740000009",
+              "lon": 15.62496,
+              "lat": 58.416634,
+              "time": "03:45:00",
+              "date": "2023-01-19"
+            },
+            "GisRef": {
+              "ref": "H|1|TF$A=1@O=Linköping Fjärrbussterminal@L=740010955@a=128@$A=1@O=Linköping Centralstation@L=740000009@a=128@$202301190325$202301190345$$$1$$$$$$"
+            },
+            "GisRoute": { "dist": 0, "durS": "PT20M", "dirGeo": 28 },
+            "Product": [
+              {
+                "icon": { "res": "prod_transf" },
+                "name": "Byten",
+                "internalName": "Byten"
+              }
+            ],
+            "idx": 2,
+            "name": "Byten",
+            "type": "TRSF",
+            "duration": "PT20M",
+            "dist": 0
+          },
+          {
+            "Origin": {
+              "name": "Linköping Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Linköping Centralstation@X=15624960@Y=58416634@U=1@L=740000009@",
+              "extId": "740000009",
+              "lon": 15.62496,
+              "lat": 58.416634,
+              "routeIdx": 0,
+              "prognosisType": "PROGNOSED",
+              "time": "05:23:00",
+              "date": "2023-01-19"
+            },
+            "Destination": {
+              "name": "Kalmar Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Kalmar Centralstation@X=16360071@Y=56661283@U=1@L=740000020@",
+              "extId": "740000020",
+              "lon": 16.360071,
+              "lat": 56.661283,
+              "routeIdx": 8,
+              "prognosisType": "PROGNOSED",
+              "time": "08:38:00",
+              "date": "2023-01-19"
+            },
+            "Notes": {
+              "Note": [
+                {
+                  "value": "Krösatåg",
+                  "key": "VK",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 8,
+                  "txtN": "Krösatåg"
+                },
+                {
+                  "value": "Frivillig platsbokning",
+                  "key": "AG",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 8,
+                  "txtN": "Frivillig platsbokning"
+                }
+              ]
+            },
+            "JourneyDetailRef": { "ref": "1|101407|0|1|19012023" },
+            "JourneyStatus": "P",
+            "Product": [
+              {
+                "icon": { "res": "prod_gen" },
+                "name": "Tåg 28803",
+                "internalName": "Tåg 28803",
+                "displayNumber": "28803",
+                "num": "28803",
+                "line": "28803",
+                "lineId": "1583000000019",
+                "catOut": "JBL",
+                "catIn": "JBL",
+                "catCode": "2",
+                "cls": "4",
+                "catOutS": "JBL",
+                "catOutL": "Tåg",
+                "operatorCode": "583",
+                "operator": "Krösatågen",
+                "admin": "583___",
+                "routeIdxFrom": 0,
+                "routeIdxTo": 8,
+                "matchId": "T23C001 KAC-LP BLÅ;T23C001 KAC-LP BLÅ;28803"
+              }
+            ],
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Linköping Centralstation",
+                  "id": "A=1@O=Linköping Centralstation@X=15624960@Y=58416634@U=1@L=740000009@",
+                  "extId": "740000009",
+                  "routeIdx": 0,
+                  "lon": 15.62496,
+                  "lat": 58.416634,
+                  "depPrognosisType": "PROGNOSED",
+                  "depTime": "05:23:00",
+                  "depDate": "2023-01-19",
+                  "depDir": "Kalmar Centralstation"
+                },
+                {
+                  "name": "Rimforsa station (Kinda kn)",
+                  "id": "A=1@O=Rimforsa station (Kinda kn)@X=15681700@Y=58135550@U=1@L=740000365@",
+                  "extId": "740000365",
+                  "routeIdx": 1,
+                  "lon": 15.6817,
+                  "lat": 58.13555,
+                  "depTime": "06:02:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "06:01:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Kisa station (Kinda kn)",
+                  "id": "A=1@O=Kisa station (Kinda kn)@X=15633805@Y=57985386@U=1@L=740000344@",
+                  "extId": "740000344",
+                  "routeIdx": 2,
+                  "lon": 15.633805,
+                  "lat": 57.985386,
+                  "depTime": "06:19:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "06:17:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Vimmerby station",
+                  "id": "A=1@O=Vimmerby station@X=15858266@Y=57663158@U=1@L=740000351@",
+                  "extId": "740000351",
+                  "routeIdx": 3,
+                  "lon": 15.858266,
+                  "lat": 57.663158,
+                  "depTime": "06:49:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "06:49:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Hultsfred station",
+                  "id": "A=1@O=Hultsfred station@X=15846742@Y=57486754@U=1@L=740000348@",
+                  "extId": "740000348",
+                  "routeIdx": 4,
+                  "lon": 15.846742,
+                  "lat": 57.486754,
+                  "depTime": "07:05:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "07:04:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Berga station (Högsby kn)",
+                  "id": "A=1@O=Berga station (Högsby kn)@X=16032711@Y=57216340@U=1@L=740000500@",
+                  "extId": "740000500",
+                  "routeIdx": 5,
+                  "lon": 16.032711,
+                  "lat": 57.21634,
+                  "depTime": "07:38:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "07:33:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Högsby station",
+                  "id": "A=1@O=Högsby station@X=16027812@Y=57165749@U=1@L=740000923@",
+                  "extId": "740000923",
+                  "routeIdx": 6,
+                  "lon": 16.027812,
+                  "lat": 57.165749,
+                  "depTime": "07:44:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "07:44:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Blomstermåla station (Mönsterås kn)",
+                  "id": "A=1@O=Blomstermåla station (Mönsterås kn)@X=16332627@Y=56980598@U=1@L=740001000@",
+                  "extId": "740001000",
+                  "routeIdx": 7,
+                  "lon": 16.332627,
+                  "lat": 56.980598,
+                  "depTime": "08:07:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "08:07:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Kalmar Centralstation",
+                  "id": "A=1@O=Kalmar Centralstation@X=16360071@Y=56661283@U=1@L=740000020@",
+                  "extId": "740000020",
+                  "routeIdx": 8,
+                  "lon": 16.360071,
+                  "lat": 56.661283,
+                  "arrPrognosisType": "PROGNOSED",
+                  "arrTime": "08:38:00",
+                  "arrDate": "2023-01-19"
+                }
+              ]
+            },
+            "JourneyDetail": {
+              "dayOfOperation": "2023-01-19",
+              "ref": "1|101407|0|1|19012023"
+            },
+            "idx": 3,
+            "name": "Tåg 28803",
+            "number": "28803",
+            "category": "JBL",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Kalmar Centralstation",
+            "directionFlag": "1",
+            "duration": "PT3H15M"
+          },
+          {
+            "Origin": {
+              "name": "Kalmar Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Kalmar Centralstation@X=16360071@Y=56661283@U=1@L=740000020@",
+              "extId": "740000020",
+              "lon": 16.360071,
+              "lat": 56.661283,
+              "routeIdx": 0,
+              "prognosisType": "PROGNOSED",
+              "time": "09:00:00",
+              "date": "2023-01-19"
+            },
+            "Destination": {
+              "name": "Malmö Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Malmö Centralstation@X=13000910@Y=55609456@U=1@L=740000003@",
+              "extId": "740000003",
+              "lon": 13.00091,
+              "lat": 55.609456,
+              "routeIdx": 13,
+              "prognosisType": "PROGNOSED",
+              "time": "12:11:00",
+              "date": "2023-01-19"
+            },
+            "Notes": {
+              "Note": [
+                {
+                  "value": "Ej reservering",
+                  "key": "AE",
+                  "type": "A",
+                  "routeIdxFrom": 5,
+                  "routeIdxTo": 6,
+                  "txtN": "Ej reservering"
+                },
+                {
+                  "value": "Ej reservering",
+                  "key": "AE",
+                  "type": "A",
+                  "routeIdxFrom": 12,
+                  "routeIdxTo": 13,
+                  "txtN": "Ej reservering"
+                },
+                {
+                  "value": "Frivillig platsbokning",
+                  "key": "AG",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 13,
+                  "txtN": "Frivillig platsbokning"
+                },
+                {
+                  "value": "Rullstolslyft",
+                  "key": "AN",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 13,
+                  "txtN": "Rullstolslyft"
+                }
+              ]
+            },
+            "JourneyDetailRef": { "ref": "1|68828|1|1|19012023" },
+            "JourneyStatus": "P",
+            "Product": [
+              {
+                "icon": { "res": "prod_gen" },
+                "name": "Regional Tåg 1065",
+                "internalName": "Regional Tåg 1065",
+                "displayNumber": "1065",
+                "num": "1065",
+                "line": "1065",
+                "lineId": "1300000000175",
+                "catOut": "JRE",
+                "catIn": "JRE",
+                "catCode": "2",
+                "cls": "4",
+                "catOutS": "JRE",
+                "catOutL": "Regional Tåg",
+                "operatorCode": "300",
+                "operator": "Öresundståg",
+                "admin": "300___",
+                "routeIdxFrom": 0,
+                "routeIdxTo": 13,
+                "matchId": "T23C001 860000650-KAC RE;T23C001 860000650-KAC RE;1065"
+              }
+            ],
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Kalmar Centralstation",
+                  "id": "A=1@O=Kalmar Centralstation@X=16360071@Y=56661283@U=1@L=740000020@",
+                  "extId": "740000020",
+                  "routeIdx": 0,
+                  "lon": 16.360071,
+                  "lat": 56.661283,
+                  "depPrognosisType": "PROGNOSED",
+                  "depTime": "09:00:00",
+                  "depDate": "2023-01-19",
+                  "depDir": "Østerport (Danmark)"
+                },
+                {
+                  "name": "Nybro station",
+                  "id": "A=1@O=Nybro station@X=15909172@Y=56742357@U=1@L=740000189@",
+                  "extId": "740000189",
+                  "routeIdx": 1,
+                  "lon": 15.909172,
+                  "lat": 56.742357,
+                  "depTime": "09:15:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "09:15:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Emmaboda station",
+                  "id": "A=1@O=Emmaboda station@X=15535499@Y=56629749@U=1@L=740000096@",
+                  "extId": "740000096",
+                  "routeIdx": 2,
+                  "lon": 15.535499,
+                  "lat": 56.629749,
+                  "depTime": "09:31:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "09:29:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Lessebo station",
+                  "id": "A=1@O=Lessebo station@X=15259045@Y=56749531@U=1@L=740000235@",
+                  "extId": "740000235",
+                  "routeIdx": 3,
+                  "lon": 15.259045,
+                  "lat": 56.749531,
+                  "depTime": "09:45:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "09:45:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Hovmantorp station (Lessebo kn)",
+                  "id": "A=1@O=Hovmantorp station (Lessebo kn)@X=15140666@Y=56785838@U=1@L=740000511@",
+                  "extId": "740000511",
+                  "routeIdx": 4,
+                  "lon": 15.140666,
+                  "lat": 56.785838,
+                  "depTime": "09:51:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "09:51:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Växjö station",
+                  "id": "A=1@O=Växjö station@X=14806789@Y=56876782@U=1@L=740000250@",
+                  "extId": "740000250",
+                  "routeIdx": 5,
+                  "lon": 14.806789,
+                  "lat": 56.876782,
+                  "depTime": "10:07:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "10:06:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Alvesta station",
+                  "id": "A=1@O=Alvesta station@X=14556322@Y=56898778@U=1@L=740000004@",
+                  "extId": "740000004",
+                  "routeIdx": 6,
+                  "lon": 14.556322,
+                  "lat": 56.898778,
+                  "depTime": "10:32:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "10:18:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Älmhult station",
+                  "id": "A=1@O=Älmhult station@X=14136985@Y=56551426@U=1@L=740000045@",
+                  "extId": "740000045",
+                  "routeIdx": 7,
+                  "lon": 14.136985,
+                  "lat": 56.551426,
+                  "depTime": "10:52:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "10:52:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Osby station",
+                  "id": "A=1@O=Osby station@X=13994254@Y=56379948@U=1@L=740000295@",
+                  "extId": "740000295",
+                  "routeIdx": 8,
+                  "lon": 13.994254,
+                  "lat": 56.379948,
+                  "depTime": "11:02:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "11:02:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Hässleholm Centralstation",
+                  "id": "A=1@O=Hässleholm Centralstation@X=13763141@Y=56157762@U=1@L=740000006@",
+                  "extId": "740000006",
+                  "routeIdx": 9,
+                  "lon": 13.763141,
+                  "lat": 56.157762,
+                  "depTime": "11:23:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "11:19:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Höör station",
+                  "id": "A=1@O=Höör station@X=13541395@Y=55937023@U=1@L=740000185@",
+                  "extId": "740000185",
+                  "routeIdx": 10,
+                  "lon": 13.541395,
+                  "lat": 55.937023,
+                  "depTime": "11:36:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "11:36:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Eslöv station",
+                  "id": "A=1@O=Eslöv station@X=13305491@Y=55837719@U=1@L=740000260@",
+                  "extId": "740000260",
+                  "routeIdx": 11,
+                  "lon": 13.305491,
+                  "lat": 55.837719,
+                  "depTime": "11:46:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "11:46:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Lund Centralstation",
+                  "id": "A=1@O=Lund Centralstation@X=13186897@Y=55708094@U=1@L=740000120@",
+                  "extId": "740000120",
+                  "routeIdx": 12,
+                  "lon": 13.186897,
+                  "lat": 55.708094,
+                  "depTime": "11:59:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "11:57:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Malmö Centralstation",
+                  "id": "A=1@O=Malmö Centralstation@X=13000910@Y=55609456@U=1@L=740000003@",
+                  "extId": "740000003",
+                  "routeIdx": 13,
+                  "lon": 13.00091,
+                  "lat": 55.609456,
+                  "arrTime": "12:11:00",
+                  "arrDate": "2023-01-19"
+                }
+              ]
+            },
+            "JourneyDetail": {
+              "dayOfOperation": "2023-01-19",
+              "ref": "1|68828|1|1|19012023"
+            },
+            "idx": 4,
+            "name": "Regional Tåg 1065",
+            "number": "1065",
+            "category": "JRE",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Østerport (Danmark)",
+            "directionFlag": "1",
+            "duration": "PT3H11M"
+          }
+        ]
+      },
+      "calculation": "INITIAL",
+      "TripStatus": {
+        "detour": true,
+        "economic": true,
+        "convenient": true,
+        "hintCode": 455,
+        "unsharp": true
+      },
+      "idx": 2,
+      "tripId": "C-2",
+      "ctxRecon": "¶HKI¶G@F$A=1@O=Stockholm Centralstation@L=740000001@a=128@$A=1@O=Stockholm Cityterminalen@L=740000622@a=128@$202301190041$202301190045$$$1$$$$$$§T$A=1@O=Stockholm Cityterminalen@L=740000622@a=128@$A=1@O=Linköping Fjärrbussterminal@L=740010955@a=128@$202301190045$202301190325$BXB  421$$1$$$$$$§TF$A=1@O=Linköping Fjärrbussterminal@L=740010955@a=128@$A=1@O=Linköping Centralstation@L=740000009@a=128@$202301190325$202301190345$$$1$$$$$$§T$A=1@O=Linköping Centralstation@L=740000009@a=128@$A=1@O=Kalmar Centralstation@L=740000020@a=128@$202301190523$202301190838$JBL28803$$1$$$$$$§T$A=1@O=Kalmar Centralstation@L=740000020@a=128@$A=1@O=Malmö Centralstation@L=740000003@a=128@$202301190900$202301191211$JRE 1065$$1$$$$$$¶GP¶ft@0@2000@120@1@100@1@@0@@@@@false@0@-1@0@-1@-1@$f@$f@$f@$f@$f@$§bt@0@2000@120@1@100@1@@0@@@@@false@0@-1@0@-1@-1@$f@$f@$f@$f@$f@$§tt@0@5000@120@1@100@1@@0@@@@@false@0@-1@0@-1@-1@$f@$f@$f@$f@$f@$§¶KRCC¶#VE#1#",
+      "duration": "PT11H30M",
+      "rtDuration": "PT11H30M",
+      "checksum": "48992257_3",
+      "transferCount": 2
+    },
+    {
+      "Origin": {
+        "name": "Stockholm Centralstation",
+        "type": "ST",
+        "id": "A=1@O=Stockholm Centralstation@X=18058151@Y=59330136@U=1@L=740000001@",
+        "extId": "740000001",
+        "lon": 18.058151,
+        "lat": 59.330136,
+        "time": "00:41:00",
+        "date": "2023-01-19"
+      },
+      "Destination": {
+        "name": "Malmö Centralstation",
+        "type": "ST",
+        "id": "A=1@O=Malmö Centralstation@X=13000910@Y=55609456@U=1@L=740000003@",
+        "extId": "740000003",
+        "lon": 13.00091,
+        "lat": 55.609456,
+        "routeIdx": 12,
+        "prognosisType": "PROGNOSED",
+        "time": "13:27:00",
+        "date": "2023-01-19"
+      },
+      "ServiceDays": [
+        {
+          "planningPeriodBegin": "2023-01-14",
+          "planningPeriodEnd": "2023-04-16",
+          "sDaysR": "inte varje dag",
+          "sDaysI": "18. jan t o m 30. mar 2023 ons, tor",
+          "sDaysB": "0C183060C183060C18300000"
+        }
+      ],
+      "LegList": {
+        "Leg": [
+          {
+            "Origin": {
+              "name": "Stockholm Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Stockholm Centralstation@X=18058151@Y=59330136@U=1@L=740000001@",
+              "extId": "740000001",
+              "lon": 18.058151,
+              "lat": 59.330136,
+              "time": "00:41:00",
+              "date": "2023-01-19"
+            },
+            "Destination": {
+              "name": "Stockholm Cityterminalen",
+              "type": "ST",
+              "id": "A=1@O=Stockholm Cityterminalen@X=18056371@Y=59330846@U=1@L=740000622@",
+              "extId": "740000622",
+              "lon": 18.056371,
+              "lat": 59.330846,
+              "time": "00:45:00",
+              "date": "2023-01-19"
+            },
+            "GisRef": {
+              "ref": "G|1|G@F|A=1@O=Stockholm Centralstation@X=18058151@Y=59330136@U=1@L=740000001@|A=1@O=Stockholm Cityterminalen@X=18056371@Y=59330846@U=1@L=740000622@|19012023|4100|4500|bf|ft@0@2000@120@1@100@1@@0@@@@@false@0@-1@0@-1@-1@$f@$f@$f@$f@$f@$§bt@0@2000@120@1@100@1@@0@@@@@false@0@-1@0@-1@-1@$f@$f@$f@$f@$f@$§tt@0@5000@120@1@100@1@@0@@@@@false@0@-1@0@-1@-1@$f@$f@$f@$f@$f@$§||||"
+            },
+            "GisRoute": { "dist": 260, "durS": "PT4M", "dirGeo": 0 },
+            "Product": [
+              {
+                "icon": { "res": "prod_walk" },
+                "name": "Promenad",
+                "internalName": "Promenad"
+              }
+            ],
+            "idx": 0,
+            "name": "Promenad",
+            "type": "WALK",
+            "duration": "PT4M",
+            "dist": 260
+          },
+          {
+            "Origin": {
+              "name": "Stockholm Cityterminalen",
+              "type": "ST",
+              "id": "A=1@O=Stockholm Cityterminalen@X=18056371@Y=59330846@U=1@L=740000622@",
+              "extId": "740000622",
+              "lon": 18.056371,
+              "lat": 59.330846,
+              "routeIdx": 1,
+              "prognosisType": "PROGNOSED",
+              "time": "00:45:00",
+              "date": "2023-01-19"
+            },
+            "Destination": {
+              "name": "Linköping Fjärrbussterminal",
+              "type": "ST",
+              "id": "A=1@O=Linköping Fjärrbussterminal@X=15618587@Y=58419430@U=1@L=740010955@",
+              "extId": "740010955",
+              "lon": 15.618587,
+              "lat": 58.41943,
+              "routeIdx": 3,
+              "prognosisType": "PROGNOSED",
+              "time": "03:25:00",
+              "date": "2023-01-19"
+            },
+            "Notes": {
+              "Note": [
+                {
+                  "value": "Obligatorisk platsbokning",
+                  "key": "AF",
+                  "type": "A",
+                  "routeIdxFrom": 1,
+                  "routeIdxTo": 3,
+                  "txtN": "Obligatorisk platsbokning"
+                },
+                {
+                  "value": "WiFi",
+                  "key": "AW",
+                  "type": "A",
+                  "routeIdxFrom": 1,
+                  "routeIdxTo": 3,
+                  "txtN": "WiFi"
+                }
+              ]
+            },
+            "JourneyDetailRef": { "ref": "1|95373|1|1|18012023" },
+            "JourneyStatus": "P",
+            "Product": [
+              {
+                "icon": { "res": "prod_gen" },
+                "name": "Expressbuss 421",
+                "internalName": "Expressbuss 421",
+                "displayNumber": "421",
+                "num": "421",
+                "line": "421",
+                "lineId": "1327040000016",
+                "catOut": "BXB",
+                "catIn": "BXB",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "BXB",
+                "catOutL": "Expressbuss",
+                "operatorCode": "327",
+                "operator": "Vy Bus4You",
+                "admin": "327___",
+                "routeIdxFrom": 1,
+                "routeIdxTo": 3,
+                "matchId": "401;400;421"
+              }
+            ],
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Stockholm Cityterminalen",
+                  "id": "A=1@O=Stockholm Cityterminalen@X=18056371@Y=59330846@U=1@L=740000622@",
+                  "extId": "740000622",
+                  "routeIdx": 1,
+                  "lon": 18.056371,
+                  "lat": 59.330846,
+                  "depTime": "00:45:00",
+                  "depDate": "2023-01-19",
+                  "depDir": "Linköping Fjärrbussterminal"
+                },
+                {
+                  "name": "Norrköping Centralstation",
+                  "id": "A=1@O=Norrköping Centralstation@X=16183343@Y=58596625@U=1@L=740000007@",
+                  "extId": "740000007",
+                  "routeIdx": 2,
+                  "lon": 16.183343,
+                  "lat": 58.596625,
+                  "depTime": "02:45:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "02:45:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Linköping Fjärrbussterminal",
+                  "id": "A=1@O=Linköping Fjärrbussterminal@X=15618587@Y=58419430@U=1@L=740010955@",
+                  "extId": "740010955",
+                  "routeIdx": 3,
+                  "lon": 15.618587,
+                  "lat": 58.41943,
+                  "arrPrognosisType": "PROGNOSED",
+                  "arrTime": "03:25:00",
+                  "arrDate": "2023-01-19"
+                }
+              ]
+            },
+            "JourneyDetail": {
+              "dayOfOperation": "2023-01-18",
+              "ref": "1|95373|1|1|18012023"
+            },
+            "idx": 1,
+            "name": "Expressbuss 421",
+            "number": "421",
+            "category": "BXB",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Linköping Fjärrbussterminal",
+            "directionFlag": "1",
+            "duration": "PT2H40M"
+          },
+          {
+            "Origin": {
+              "name": "Linköping Fjärrbussterminal",
+              "type": "ST",
+              "id": "A=1@O=Linköping Fjärrbussterminal@X=15618587@Y=58419430@U=1@L=740010955@",
+              "extId": "740010955",
+              "lon": 15.618587,
+              "lat": 58.41943,
+              "time": "03:25:00",
+              "date": "2023-01-19"
+            },
+            "Destination": {
+              "name": "Linköping Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Linköping Centralstation@X=15624960@Y=58416634@U=1@L=740000009@",
+              "extId": "740000009",
+              "lon": 15.62496,
+              "lat": 58.416634,
+              "time": "03:45:00",
+              "date": "2023-01-19"
+            },
+            "GisRef": {
+              "ref": "H|1|TF$A=1@O=Linköping Fjärrbussterminal@L=740010955@a=128@$A=1@O=Linköping Centralstation@L=740000009@a=128@$202301190325$202301190345$$$1$$$$$$"
+            },
+            "GisRoute": { "dist": 0, "durS": "PT20M", "dirGeo": 28 },
+            "Product": [
+              {
+                "icon": { "res": "prod_transf" },
+                "name": "Byten",
+                "internalName": "Byten"
+              }
+            ],
+            "idx": 2,
+            "name": "Byten",
+            "type": "TRSF",
+            "duration": "PT20M",
+            "dist": 0
+          },
+          {
+            "Origin": {
+              "name": "Linköping Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Linköping Centralstation@X=15624960@Y=58416634@U=1@L=740000009@",
+              "extId": "740000009",
+              "lon": 15.62496,
+              "lat": 58.416634,
+              "routeIdx": 3,
+              "prognosisType": "PROGNOSED",
+              "time": "06:31:00",
+              "date": "2023-01-19"
+            },
+            "Destination": {
+              "name": "Tranås station",
+              "type": "ST",
+              "id": "A=1@O=Tranås station@X=14975022@Y=58037963@U=1@L=740000041@",
+              "extId": "740000041",
+              "lon": 14.975022,
+              "lat": 58.037963,
+              "routeIdx": 8,
+              "prognosisType": "PROGNOSED",
+              "time": "07:10:00",
+              "date": "2023-01-19"
+            },
+            "Notes": {
+              "Note": [
+                {
+                  "value": "Östgötapendeln",
+                  "key": "VF",
+                  "type": "A",
+                  "routeIdxFrom": 3,
+                  "routeIdxTo": 8,
+                  "txtN": "Östgötapendeln"
+                },
+                {
+                  "value": "Endast 2 klass",
+                  "key": "AA",
+                  "type": "A",
+                  "routeIdxFrom": 3,
+                  "routeIdxTo": 8,
+                  "txtN": "Endast 2 klass"
+                }
+              ]
+            },
+            "JourneyDetailRef": { "ref": "1|17176|0|1|19012023" },
+            "JourneyStatus": "P",
+            "Product": [
+              {
+                "icon": { "res": "prod_gen" },
+                "name": "Länstrafik - Tåg 8809",
+                "internalName": "Länstrafik - Tåg 8809",
+                "displayNumber": "8809",
+                "num": "8809",
+                "line": "8809",
+                "lineId": "1253000000045",
+                "catOut": "JLT",
+                "catIn": "JLT",
+                "catCode": "4",
+                "cls": "16",
+                "catOutS": "JLT",
+                "catOutL": "Länstrafik - Tåg",
+                "operatorCode": "253",
+                "operator": "ÖstgötaTrafiken",
+                "admin": "253___",
+                "routeIdxFrom": 3,
+                "routeIdxTo": 8,
+                "matchId": "T23C001 MOT-NR LT;T23C001 MOT-NR LT;8809"
+              }
+            ],
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Linköping Centralstation",
+                  "id": "A=1@O=Linköping Centralstation@X=15624960@Y=58416634@U=1@L=740000009@",
+                  "extId": "740000009",
+                  "routeIdx": 3,
+                  "lon": 15.62496,
+                  "lat": 58.416634,
+                  "depTime": "06:31:00",
+                  "depDate": "2023-01-19",
+                  "depDir": "Tranås station"
+                },
+                {
+                  "name": "Vikingstad station (Linköping kn)",
+                  "id": "A=1@O=Vikingstad station (Linköping kn)@X=15431971@Y=58383167@U=1@L=740000868@",
+                  "extId": "740000868",
+                  "routeIdx": 4,
+                  "lon": 15.431971,
+                  "lat": 58.383167,
+                  "depTime": "06:38:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "06:38:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Mantorp station (Mjölby kn)",
+                  "id": "A=1@O=Mantorp station (Mjölby kn)@X=15290732@Y=58348622@U=1@L=740000616@",
+                  "extId": "740000616",
+                  "routeIdx": 5,
+                  "lon": 15.290732,
+                  "lat": 58.348622,
+                  "depTime": "06:44:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "06:44:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Mjölby station",
+                  "id": "A=1@O=Mjölby station@X=15131992@Y=58322984@U=1@L=740000180@",
+                  "extId": "740000180",
+                  "routeIdx": 6,
+                  "lon": 15.131992,
+                  "lat": 58.322984,
+                  "depTime": "06:51:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "06:50:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Boxholm station",
+                  "id": "A=1@O=Boxholm station@X=15054145@Y=58193657@U=1@L=740000015@",
+                  "extId": "740000015",
+                  "routeIdx": 7,
+                  "lon": 15.054145,
+                  "lat": 58.193657,
+                  "depTime": "06:59:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "06:59:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Tranås station",
+                  "id": "A=1@O=Tranås station@X=14975022@Y=58037963@U=1@L=740000041@",
+                  "extId": "740000041",
+                  "routeIdx": 8,
+                  "lon": 14.975022,
+                  "lat": 58.037963,
+                  "arrPrognosisType": "PROGNOSED",
+                  "arrTime": "07:10:00",
+                  "arrDate": "2023-01-19"
+                }
+              ]
+            },
+            "JourneyDetail": {
+              "dayOfOperation": "2023-01-19",
+              "ref": "1|17176|0|1|19012023"
+            },
+            "idx": 3,
+            "name": "Länstrafik - Tåg 8809",
+            "number": "8809",
+            "category": "JLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Tranås station",
+            "directionFlag": "1",
+            "duration": "PT39M"
+          },
+          {
+            "Origin": {
+              "name": "Tranås station",
+              "type": "ST",
+              "id": "A=1@O=Tranås station@X=14975022@Y=58037963@U=1@L=740000041@",
+              "extId": "740000041",
+              "lon": 14.975022,
+              "lat": 58.037963,
+              "routeIdx": 0,
+              "prognosisType": "PROGNOSED",
+              "time": "08:16:00",
+              "date": "2023-01-19"
+            },
+            "Destination": {
+              "name": "Nässjö Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Nässjö Centralstation@X=14693983@Y=57652443@U=1@L=740000140@",
+              "extId": "740000140",
+              "lon": 14.693983,
+              "lat": 57.652443,
+              "routeIdx": 2,
+              "prognosisType": "PROGNOSED",
+              "time": "08:45:00",
+              "date": "2023-01-19"
+            },
+            "Notes": {
+              "Note": [
+                {
+                  "value": "Krösatåg",
+                  "key": "VK",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 2,
+                  "txtN": "Krösatåg"
+                },
+                {
+                  "value": "Endast 2 klass",
+                  "key": "AA",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 2,
+                  "txtN": "Endast 2 klass"
+                }
+              ]
+            },
+            "JourneyDetailRef": { "ref": "1|65456|0|1|19012023" },
+            "JourneyStatus": "P",
+            "Product": [
+              {
+                "icon": { "res": "prod_gen" },
+                "name": "Länstrafik - Tåg 27605",
+                "internalName": "Länstrafik - Tåg 27605",
+                "displayNumber": "27605",
+                "num": "27605",
+                "line": "27605",
+                "lineId": "1254000000071",
+                "catOut": "JLT",
+                "catIn": "JLT",
+                "catCode": "4",
+                "cls": "16",
+                "catOutS": "JLT",
+                "catOutL": "Länstrafik - Tåg",
+                "operatorCode": "254",
+                "operator": "JLT",
+                "admin": "254___",
+                "routeIdxFrom": 0,
+                "routeIdxTo": 2,
+                "matchId": "T23C001 JÖ-TNS LT;T23C001 JÖ-TNS LT;27605"
+              }
+            ],
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Tranås station",
+                  "id": "A=1@O=Tranås station@X=14975022@Y=58037963@U=1@L=740000041@",
+                  "extId": "740000041",
+                  "routeIdx": 0,
+                  "lon": 14.975022,
+                  "lat": 58.037963,
+                  "depPrognosisType": "PROGNOSED",
+                  "depTime": "08:16:00",
+                  "depDate": "2023-01-19",
+                  "depDir": "Jönköping Centralstation"
+                },
+                {
+                  "name": "Aneby station",
+                  "id": "A=1@O=Aneby station@X=14810816@Y=57836237@U=1@L=740000379@",
+                  "extId": "740000379",
+                  "routeIdx": 1,
+                  "lon": 14.810816,
+                  "lat": 57.836237,
+                  "depTime": "08:30:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "08:30:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Nässjö Centralstation",
+                  "id": "A=1@O=Nässjö Centralstation@X=14693983@Y=57652443@U=1@L=740000140@",
+                  "extId": "740000140",
+                  "routeIdx": 2,
+                  "lon": 14.693983,
+                  "lat": 57.652443,
+                  "arrTime": "08:45:00",
+                  "arrDate": "2023-01-19"
+                }
+              ]
+            },
+            "JourneyDetail": {
+              "dayOfOperation": "2023-01-19",
+              "ref": "1|65456|0|1|19012023"
+            },
+            "idx": 4,
+            "name": "Länstrafik - Tåg 27605",
+            "number": "27605",
+            "category": "JLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Jönköping Centralstation",
+            "directionFlag": "1",
+            "duration": "PT29M"
+          },
+          {
+            "Origin": {
+              "name": "Nässjö Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Nässjö Centralstation@X=14693983@Y=57652443@U=1@L=740000140@",
+              "extId": "740000140",
+              "lon": 14.693983,
+              "lat": 57.652443,
+              "routeIdx": 4,
+              "prognosisType": "PROGNOSED",
+              "time": "09:03:00",
+              "date": "2023-01-19"
+            },
+            "Destination": {
+              "name": "Alvesta station",
+              "type": "ST",
+              "id": "A=1@O=Alvesta station@X=14556322@Y=56898778@U=1@L=740000004@",
+              "extId": "740000004",
+              "lon": 14.556322,
+              "lat": 56.898778,
+              "routeIdx": 10,
+              "prognosisType": "PROGNOSED",
+              "time": "09:55:00",
+              "date": "2023-01-19"
+            },
+            "Notes": {
+              "Note": [
+                {
+                  "value": "Krösatåg",
+                  "key": "VK",
+                  "type": "A",
+                  "routeIdxFrom": 4,
+                  "routeIdxTo": 10,
+                  "txtN": "Krösatåg"
+                },
+                {
+                  "value": "Endast 2 klass",
+                  "key": "AA",
+                  "type": "A",
+                  "routeIdxFrom": 4,
+                  "routeIdxTo": 10,
+                  "txtN": "Endast 2 klass"
+                }
+              ]
+            },
+            "JourneyDetailRef": { "ref": "1|15759|0|1|19012023" },
+            "JourneyStatus": "P",
+            "Product": [
+              {
+                "icon": { "res": "prod_gen" },
+                "name": "Länstrafik - Tåg 17607",
+                "internalName": "Länstrafik - Tåg 17607",
+                "displayNumber": "17607",
+                "num": "17607",
+                "line": "17607",
+                "lineId": "1254000000172",
+                "catOut": "JLT",
+                "catIn": "JLT",
+                "catCode": "4",
+                "cls": "16",
+                "catOutS": "JLT",
+                "catOutL": "Länstrafik - Tåg",
+                "operatorCode": "254",
+                "operator": "JLT",
+                "admin": "254___",
+                "routeIdxFrom": 4,
+                "routeIdxTo": 10,
+                "matchId": "T23C001 JÖ-VÖ LT;T23C001 JÖ-VÖ LT;17607"
+              }
+            ],
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Nässjö Centralstation",
+                  "id": "A=1@O=Nässjö Centralstation@X=14693983@Y=57652443@U=1@L=740000140@",
+                  "extId": "740000140",
+                  "routeIdx": 4,
+                  "lon": 14.693983,
+                  "lat": 57.652443,
+                  "depTime": "09:03:00",
+                  "depDate": "2023-01-19",
+                  "depDir": "Växjö station"
+                },
+                {
+                  "name": "Bodafors station (Nässjö kn)",
+                  "id": "A=1@O=Bodafors station (Nässjö kn)@X=14693291@Y=57504103@U=1@L=740000963@",
+                  "extId": "740000963",
+                  "routeIdx": 5,
+                  "lon": 14.693291,
+                  "lat": 57.504103,
+                  "depTime": "09:12:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "09:12:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Sävsjö station",
+                  "id": "A=1@O=Sävsjö station@X=14665308@Y=57402849@U=1@L=740000078@",
+                  "extId": "740000078",
+                  "routeIdx": 6,
+                  "lon": 14.665308,
+                  "lat": 57.402849,
+                  "depTime": "09:19:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "09:19:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Stockaryd station (Sävsjö kn)",
+                  "id": "A=1@O=Stockaryd station (Sävsjö kn)@X=14591884@Y=57313082@U=1@L=740001318@",
+                  "extId": "740001318",
+                  "routeIdx": 7,
+                  "lon": 14.591884,
+                  "lat": 57.313082,
+                  "depTime": "09:26:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "09:26:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Lammhult station (Växjö kn)",
+                  "id": "A=1@O=Lammhult station (Växjö kn)@X=14585385@Y=57171035@U=1@L=740037092@",
+                  "extId": "740037092",
+                  "routeIdx": 8,
+                  "lon": 14.585385,
+                  "lat": 57.171035,
+                  "depTime": "09:35:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "09:35:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Moheda station (Alvesta kn)",
+                  "id": "A=1@O=Moheda station (Alvesta kn)@X=14576863@Y=57003278@U=1@L=740000122@",
+                  "extId": "740000122",
+                  "routeIdx": 9,
+                  "lon": 14.576863,
+                  "lat": 57.003278,
+                  "depTime": "09:46:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "09:46:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Alvesta station",
+                  "id": "A=1@O=Alvesta station@X=14556322@Y=56898778@U=1@L=740000004@",
+                  "extId": "740000004",
+                  "routeIdx": 10,
+                  "lon": 14.556322,
+                  "lat": 56.898778,
+                  "arrTime": "09:55:00",
+                  "arrDate": "2023-01-19"
+                }
+              ]
+            },
+            "JourneyDetail": {
+              "dayOfOperation": "2023-01-19",
+              "ref": "1|15759|0|1|19012023"
+            },
+            "idx": 5,
+            "name": "Länstrafik - Tåg 17607",
+            "number": "17607",
+            "category": "JLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Växjö station",
+            "directionFlag": "1",
+            "duration": "PT52M"
+          },
+          {
+            "Origin": {
+              "name": "Alvesta station",
+              "type": "ST",
+              "id": "A=1@O=Alvesta station@X=14556322@Y=56898778@U=1@L=740000004@",
+              "extId": "740000004",
+              "lon": 14.556322,
+              "lat": 56.898778,
+              "routeIdx": 2,
+              "prognosisType": "PROGNOSED",
+              "time": "11:03:00",
+              "date": "2023-01-19"
+            },
+            "Destination": {
+              "name": "Hässleholm Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Hässleholm Centralstation@X=13763141@Y=56157762@U=1@L=740000006@",
+              "extId": "740000006",
+              "lon": 13.763141,
+              "lat": 56.157762,
+              "routeIdx": 10,
+              "prognosisType": "PROGNOSED",
+              "time": "12:00:00",
+              "date": "2023-01-19"
+            },
+            "Notes": {
+              "Note": [
+                {
+                  "value": "Krösatåg",
+                  "key": "VK",
+                  "type": "A",
+                  "routeIdxFrom": 2,
+                  "routeIdxTo": 10,
+                  "txtN": "Krösatåg"
+                },
+                {
+                  "value": "Endast 2 klass",
+                  "key": "AA",
+                  "type": "A",
+                  "routeIdxFrom": 2,
+                  "routeIdxTo": 10,
+                  "txtN": "Endast 2 klass"
+                }
+              ]
+            },
+            "JourneyDetailRef": { "ref": "1|42625|0|1|19012023" },
+            "JourneyStatus": "P",
+            "Product": [
+              {
+                "icon": { "res": "prod_gen" },
+                "name": "Länstrafik - Tåg 17515",
+                "internalName": "Länstrafik - Tåg 17515",
+                "displayNumber": "17515",
+                "num": "17515",
+                "line": "17515",
+                "lineId": "1648000000037",
+                "catOut": "JLT",
+                "catIn": "JLT",
+                "catCode": "4",
+                "cls": "16",
+                "catOutS": "JLT",
+                "catOutL": "Länstrafik - Tåg",
+                "operatorCode": "648",
+                "operator": "Krösatågen",
+                "admin": "648___",
+                "routeIdxFrom": 2,
+                "routeIdxTo": 10,
+                "matchId": "T23C001 HM-VÖ LT;T23C001 HM-VÖ LT;17515"
+              }
+            ],
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Alvesta station",
+                  "id": "A=1@O=Alvesta station@X=14556322@Y=56898778@U=1@L=740000004@",
+                  "extId": "740000004",
+                  "routeIdx": 2,
+                  "lon": 14.556322,
+                  "lat": 56.898778,
+                  "depTime": "11:03:00",
+                  "depDate": "2023-01-19",
+                  "depDir": "Hässleholm Centralstation"
+                },
+                {
+                  "name": "Vislanda station (Alvesta kn)",
+                  "id": "A=1@O=Vislanda station (Alvesta kn)@X=14453585@Y=56786989@U=1@L=740000145@",
+                  "extId": "740000145",
+                  "routeIdx": 3,
+                  "lon": 14.453585,
+                  "lat": 56.786989,
+                  "depTime": "11:11:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "11:11:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Diö station (Älmhult kn)",
+                  "id": "A=1@O=Diö station (Älmhult kn)@X=14215263@Y=56634181@U=1@L=740010243@",
+                  "extId": "740010243",
+                  "routeIdx": 4,
+                  "lon": 14.215263,
+                  "lat": 56.634181,
+                  "depTime": "11:23:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "11:23:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Älmhult station",
+                  "id": "A=1@O=Älmhult station@X=14136985@Y=56551426@U=1@L=740000045@",
+                  "extId": "740000045",
+                  "routeIdx": 5,
+                  "lon": 14.136985,
+                  "lat": 56.551426,
+                  "depTime": "11:29:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "11:29:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Killeberg station (Osby kn)",
+                  "id": "A=1@O=Killeberg station (Osby kn)@X=14098367@Y=56474775@U=1@L=740001605@",
+                  "extId": "740001605",
+                  "routeIdx": 6,
+                  "lon": 14.098367,
+                  "lat": 56.474775,
+                  "depTime": "11:35:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "11:35:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Osby station",
+                  "id": "A=1@O=Osby station@X=13994254@Y=56379948@U=1@L=740000295@",
+                  "extId": "740000295",
+                  "routeIdx": 7,
+                  "lon": 13.994254,
+                  "lat": 56.379948,
+                  "depTime": "11:42:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "11:42:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Hästveda station (Hässleholm kn)",
+                  "id": "A=1@O=Hästveda station (Hässleholm kn)@X=13934682@Y=56287656@U=1@L=740064282@",
+                  "extId": "740064282",
+                  "routeIdx": 8,
+                  "lon": 13.934682,
+                  "lat": 56.287656,
+                  "depTime": "11:48:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "11:48:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Ballingslöv station (Hässleholm kn)",
+                  "id": "A=1@O=Ballingslöv station (Hässleholm kn)@X=13848898@Y=56214484@U=1@L=740001441@",
+                  "extId": "740001441",
+                  "routeIdx": 9,
+                  "lon": 13.848898,
+                  "lat": 56.214484,
+                  "depTime": "11:54:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "11:54:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Hässleholm Centralstation",
+                  "id": "A=1@O=Hässleholm Centralstation@X=13763141@Y=56157762@U=1@L=740000006@",
+                  "extId": "740000006",
+                  "routeIdx": 10,
+                  "lon": 13.763141,
+                  "lat": 56.157762,
+                  "arrPrognosisType": "PROGNOSED",
+                  "arrTime": "12:00:00",
+                  "arrDate": "2023-01-19"
+                }
+              ]
+            },
+            "JourneyDetail": {
+              "dayOfOperation": "2023-01-19",
+              "ref": "1|42625|0|1|19012023"
+            },
+            "idx": 6,
+            "name": "Länstrafik - Tåg 17515",
+            "number": "17515",
+            "category": "JLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Hässleholm Centralstation",
+            "directionFlag": "1",
+            "duration": "PT57M"
+          },
+          {
+            "Origin": {
+              "name": "Hässleholm Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Hässleholm Centralstation@X=13763141@Y=56157762@U=1@L=740000006@",
+              "extId": "740000006",
+              "lon": 13.763141,
+              "lat": 56.157762,
+              "routeIdx": 3,
+              "prognosisType": "PROGNOSED",
+              "time": "12:28:00",
+              "date": "2023-01-19"
+            },
+            "Destination": {
+              "name": "Malmö Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Malmö Centralstation@X=13000910@Y=55609456@U=1@L=740000003@",
+              "extId": "740000003",
+              "lon": 13.00091,
+              "lat": 55.609456,
+              "routeIdx": 12,
+              "prognosisType": "PROGNOSED",
+              "time": "13:27:00",
+              "date": "2023-01-19"
+            },
+            "Notes": {
+              "Note": [
+                {
+                  "value": "Pågatågen",
+                  "key": "VG",
+                  "type": "A",
+                  "routeIdxFrom": 3,
+                  "routeIdxTo": 12,
+                  "txtN": "Pågatågen"
+                },
+                {
+                  "value": "Endast 2 klass",
+                  "key": "AA",
+                  "type": "A",
+                  "routeIdxFrom": 3,
+                  "routeIdxTo": 12,
+                  "txtN": "Endast 2 klass"
+                }
+              ]
+            },
+            "JourneyDetailRef": { "ref": "1|8202|0|1|19012023" },
+            "JourneyStatus": "P",
+            "Product": [
+              {
+                "icon": { "res": "prod_gen" },
+                "name": "Länstrafik - Tåg 1219",
+                "internalName": "Länstrafik - Tåg 1219",
+                "displayNumber": "1219",
+                "num": "1219",
+                "line": "1219",
+                "lineId": "1276000000164",
+                "catOut": "JLT",
+                "catIn": "JLT",
+                "catCode": "4",
+                "cls": "16",
+                "catOutS": "JLT",
+                "catOutL": "Länstrafik - Tåg",
+                "operatorCode": "276",
+                "operator": "Skånetrafiken",
+                "admin": "276___",
+                "routeIdxFrom": 3,
+                "routeIdxTo": 12,
+                "matchId": "T23C001 CR-SI LT;T23C001 CR-SI LT;1219"
+              }
+            ],
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Hässleholm Centralstation",
+                  "id": "A=1@O=Hässleholm Centralstation@X=13763141@Y=56157762@U=1@L=740000006@",
+                  "extId": "740000006",
+                  "routeIdx": 3,
+                  "lon": 13.763141,
+                  "lat": 56.157762,
+                  "depTime": "12:28:00",
+                  "depDate": "2023-01-19",
+                  "depDir": "Malmö Centralstation"
+                },
+                {
+                  "name": "Sösdala station (Hässleholm kn)",
+                  "id": "A=1@O=Sösdala station (Hässleholm kn)@X=13680422@Y=56036272@U=1@L=740001334@",
+                  "extId": "740001334",
+                  "routeIdx": 4,
+                  "lon": 13.680422,
+                  "lat": 56.036272,
+                  "depTime": "12:36:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "12:36:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Tjörnarp station (Höör kn)",
+                  "id": "A=1@O=Tjörnarp station (Höör kn)@X=13629849@Y=56000316@U=1@L=740001611@",
+                  "extId": "740001611",
+                  "routeIdx": 5,
+                  "lon": 13.629849,
+                  "lat": 56.000316,
+                  "depTime": "12:40:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "12:40:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Höör station",
+                  "id": "A=1@O=Höör station@X=13541395@Y=55937023@U=1@L=740000185@",
+                  "extId": "740000185",
+                  "routeIdx": 6,
+                  "lon": 13.541395,
+                  "lat": 55.937023,
+                  "depTime": "12:46:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "12:46:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Stehag station (Eslöv kn)",
+                  "id": "A=1@O=Stehag station (Eslöv kn)@X=13394853@Y=55900814@U=1@L=740000952@",
+                  "extId": "740000952",
+                  "routeIdx": 7,
+                  "lon": 13.394853,
+                  "lat": 55.900814,
+                  "depTime": "12:52:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "12:52:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Eslöv station",
+                  "id": "A=1@O=Eslöv station@X=13305491@Y=55837719@U=1@L=740000260@",
+                  "extId": "740000260",
+                  "routeIdx": 8,
+                  "lon": 13.305491,
+                  "lat": 55.837719,
+                  "depTime": "12:59:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "12:59:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Örtofta station (Eslöv kn)",
+                  "id": "A=1@O=Örtofta station (Eslöv kn)@X=13243969@Y=55778929@U=1@L=740000961@",
+                  "extId": "740000961",
+                  "routeIdx": 9,
+                  "lon": 13.243969,
+                  "lat": 55.778929,
+                  "depTime": "13:04:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "13:04:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Stångby station (Lund kn)",
+                  "id": "A=1@O=Stångby station (Lund kn)@X=13200201@Y=55751153@U=1@L=740000834@",
+                  "extId": "740000834",
+                  "routeIdx": 10,
+                  "lon": 13.200201,
+                  "lat": 55.751153,
+                  "depTime": "13:08:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "13:08:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Lund Centralstation",
+                  "id": "A=1@O=Lund Centralstation@X=13186897@Y=55708094@U=1@L=740000120@",
+                  "extId": "740000120",
+                  "routeIdx": 11,
+                  "lon": 13.186897,
+                  "lat": 55.708094,
+                  "depTime": "13:15:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "13:13:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Malmö Centralstation",
+                  "id": "A=1@O=Malmö Centralstation@X=13000910@Y=55609456@U=1@L=740000003@",
+                  "extId": "740000003",
+                  "routeIdx": 12,
+                  "lon": 13.00091,
+                  "lat": 55.609456,
+                  "arrTime": "13:27:00",
+                  "arrDate": "2023-01-19"
+                }
+              ]
+            },
+            "JourneyDetail": {
+              "dayOfOperation": "2023-01-19",
+              "ref": "1|8202|0|1|19012023"
+            },
+            "idx": 7,
+            "name": "Länstrafik - Tåg 1219",
+            "number": "1219",
+            "category": "JLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Malmö Centralstation",
+            "directionFlag": "1",
+            "duration": "PT59M"
+          }
+        ]
+      },
+      "calculation": "INITIAL",
+      "TripStatus": {
+        "economic": true,
+        "convenient": true,
+        "hintCode": 455,
+        "unsharp": true
+      },
+      "idx": 3,
+      "tripId": "C-3",
+      "ctxRecon": "¶HKI¶G@F$A=1@O=Stockholm Centralstation@L=740000001@a=128@$A=1@O=Stockholm Cityterminalen@L=740000622@a=128@$202301190041$202301190045$$$1$$$$$$§T$A=1@O=Stockholm Cityterminalen@L=740000622@a=128@$A=1@O=Linköping Fjärrbussterminal@L=740010955@a=128@$202301190045$202301190325$BXB  421$$1$$$$$$§TF$A=1@O=Linköping Fjärrbussterminal@L=740010955@a=128@$A=1@O=Linköping Centralstation@L=740000009@a=128@$202301190325$202301190345$$$1$$$$$$§T$A=1@O=Linköping Centralstation@L=740000009@a=128@$A=1@O=Tranås station@L=740000041@a=128@$202301190631$202301190710$JLT 8809$$1$$$$$$§T$A=1@O=Tranås station@L=740000041@a=128@$A=1@O=Nässjö Centralstation@L=740000140@a=128@$202301190816$202301190845$JLT27605$$1$$$$$$§T$A=1@O=Nässjö Centralstation@L=740000140@a=128@$A=1@O=Alvesta station@L=740000004@a=128@$202301190903$202301190955$JLT17607$$1$$$$$$§T$A=1@O=Alvesta station@L=740000004@a=128@$A=1@O=Hässleholm Centralstation@L=740000006@a=128@$202301191103$202301191200$JLT17515$$1$$$$$$§T$A=1@O=Hässleholm Centralstation@L=740000006@a=128@$A=1@O=Malmö Centralstation@L=740000003@a=128@$202301191228$202301191327$JLT 1219$$1$$$$$$¶GP¶ft@0@2000@120@1@100@1@@0@@@@@false@0@-1@0@-1@-1@$f@$f@$f@$f@$f@$§bt@0@2000@120@1@100@1@@0@@@@@false@0@-1@0@-1@-1@$f@$f@$f@$f@$f@$§tt@0@5000@120@1@100@1@@0@@@@@false@0@-1@0@-1@-1@$f@$f@$f@$f@$f@$§¶KRCC¶#VE#1#",
+      "duration": "PT12H46M",
+      "rtDuration": "PT12H46M",
+      "checksum": "d9935b21_3",
+      "transferCount": 5
+    },
+    {
+      "Origin": {
+        "name": "Stockholm Centralstation",
+        "type": "ST",
+        "id": "A=1@O=Stockholm Centralstation@X=18058151@Y=59330136@U=1@L=740000001@",
+        "extId": "740000001",
+        "lon": 18.058151,
+        "lat": 59.330136,
+        "time": "02:43:00",
+        "date": "2023-01-19"
+      },
+      "Destination": {
+        "name": "Malmö Centralstation",
+        "type": "ST",
+        "id": "A=1@O=Malmö Centralstation@X=13000910@Y=55609456@U=1@L=740000003@",
+        "extId": "740000003",
+        "lon": 13.00091,
+        "lat": 55.609456,
+        "time": "17:14:00",
+        "date": "2023-01-19"
+      },
+      "ServiceDays": [
+        {
+          "planningPeriodBegin": "2023-01-14",
+          "planningPeriodEnd": "2023-04-16",
+          "sDaysR": "inte varje dag",
+          "sDaysI": "18. jan t o m 31. mar 2023 mån - fre",
+          "sDaysB": "3E7CF9F3E7CF9F3E7CF80000"
+        }
+      ],
+      "LegList": {
+        "Leg": [
+          {
+            "Origin": {
+              "name": "Stockholm Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Stockholm Centralstation@X=18058151@Y=59330136@U=1@L=740000001@",
+              "extId": "740000001",
+              "lon": 18.058151,
+              "lat": 59.330136,
+              "time": "02:43:00",
+              "date": "2023-01-19"
+            },
+            "Destination": {
+              "name": "Stockholm Citytermin Kungsbron",
+              "type": "ST",
+              "id": "A=1@O=Stockholm Citytermin Kungsbron@X=18054475@Y=59333165@U=1@L=740001541@",
+              "extId": "740001541",
+              "lon": 18.054475,
+              "lat": 59.333165,
+              "time": "02:49:00",
+              "date": "2023-01-19"
+            },
+            "GisRef": {
+              "ref": "G|1|G@F|A=1@O=Stockholm Centralstation@X=18058151@Y=59330136@U=1@L=740000001@|A=1@O=Stockholm Citytermin Kungsbron@X=18054475@Y=59333165@U=1@L=740001541@|19012023|24300|24900|bf|ft@0@2000@120@1@100@1@@0@@@@@false@0@-1@0@-1@-1@$f@$f@$f@$f@$f@$§bt@0@2000@120@1@100@1@@0@@@@@false@0@-1@0@-1@-1@$f@$f@$f@$f@$f@$§tt@0@5000@120@1@100@1@@0@@@@@false@0@-1@0@-1@-1@$f@$f@$f@$f@$f@$§||||"
+            },
+            "GisRoute": { "dist": 476, "durS": "PT6M", "dirGeo": 0 },
+            "Product": [
+              {
+                "icon": { "res": "prod_walk" },
+                "name": "Promenad",
+                "internalName": "Promenad"
+              }
+            ],
+            "idx": 0,
+            "name": "Promenad",
+            "type": "WALK",
+            "duration": "PT6M",
+            "dist": 476
+          },
+          {
+            "Origin": {
+              "name": "Stockholm Citytermin Kungsbron",
+              "type": "ST",
+              "id": "A=1@O=Stockholm Citytermin Kungsbron@X=18054475@Y=59333165@U=1@L=740001541@",
+              "extId": "740001541",
+              "lon": 18.054475,
+              "lat": 59.333165,
+              "routeIdx": 0,
+              "prognosisType": "PROGNOSED",
+              "time": "02:49:00",
+              "date": "2023-01-19"
+            },
+            "Destination": {
+              "name": "Arlanda terminal 2-3 buss (Sigtuna kn)",
+              "type": "ST",
+              "id": "A=1@O=Arlanda terminal 2-3 buss (Sigtuna kn)@X=17929435@Y=59644264@U=1@L=740020671@",
+              "extId": "740020671",
+              "lon": 17.929435,
+              "lat": 59.644264,
+              "routeIdx": 9,
+              "prognosisType": "PROGNOSED",
+              "time": "03:31:00",
+              "date": "2023-01-19"
+            },
+            "JourneyDetailRef": { "ref": "1|4119|1|1|19012023" },
+            "JourneyStatus": "P",
+            "Product": [
+              {
+                "icon": { "res": "prod_gen" },
+                "name": "Länstrafik - Buss 593",
+                "internalName": "Länstrafik - Buss 593",
+                "displayNumber": "593",
+                "num": "593",
+                "line": "593",
+                "lineId": "1275059300001",
+                "catOut": "BLT",
+                "catIn": "BLT",
+                "catCode": "7",
+                "cls": "128",
+                "catOutS": "BLT",
+                "catOutL": "Länstrafik - Buss",
+                "operatorCode": "275",
+                "operator": "SL",
+                "admin": "275___",
+                "routeIdxFrom": 0,
+                "routeIdxTo": 9,
+                "matchId": "593;593;435831"
+              }
+            ],
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Stockholm Citytermin Kungsbron",
+                  "id": "A=1@O=Stockholm Citytermin Kungsbron@X=18054475@Y=59333165@U=1@L=740001541@",
+                  "extId": "740001541",
+                  "routeIdx": 0,
+                  "lon": 18.054475,
+                  "lat": 59.333165,
+                  "depPrognosisType": "PROGNOSED",
+                  "depTime": "02:49:00",
+                  "depDate": "2023-01-19",
+                  "depDir": "Uppsala Centralstation"
+                },
+                {
+                  "name": "Norra Bantorget (Stockholm kn)",
+                  "id": "A=1@O=Norra Bantorget (Stockholm kn)@X=18054879@Y=59335116@U=1@L=740046063@",
+                  "extId": "740046063",
+                  "routeIdx": 1,
+                  "lon": 18.054879,
+                  "lat": 59.335116,
+                  "depTime": "02:49:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "02:49:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "S:t Eriksplan T-bana (Stockholm kn)",
+                  "id": "A=1@O=S*3At Eriksplan T-bana (Stockholm kn)@X=18036991@Y=59339655@U=1@L=740021665@",
+                  "extId": "740021665",
+                  "routeIdx": 2,
+                  "lon": 18.036991,
+                  "lat": 59.339655,
+                  "depTime": "02:51:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "02:51:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Vanadisplan (Stockholm kn)",
+                  "id": "A=1@O=Vanadisplan (Stockholm kn)@X=18040047@Y=59344950@U=1@L=740046188@",
+                  "extId": "740046188",
+                  "routeIdx": 3,
+                  "lon": 18.040047,
+                  "lat": 59.34495,
+                  "depTime": "02:52:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "02:52:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Norra Stationsgatan (på St Eriksgatan) (Stockholm ",
+                  "id": "A=1@O=Norra Stationsgatan (på St Eriksgatan) (Stockholm @X=18040550@Y=59347611@U=1@L=740046187@",
+                  "extId": "740046187",
+                  "routeIdx": 4,
+                  "lon": 18.04055,
+                  "lat": 59.347611,
+                  "depTime": "02:53:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "02:53:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Haga norra (Solna kn)",
+                  "id": "A=1@O=Haga norra (Solna kn)@X=18024909@Y=59363081@U=1@L=740066544@",
+                  "extId": "740066544",
+                  "routeIdx": 5,
+                  "lon": 18.024909,
+                  "lat": 59.363081,
+                  "depTime": "02:57:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "02:57:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Frösunda (Solna kn)",
+                  "id": "A=1@O=Frösunda (Solna kn)@X=18019866@Y=59371217@U=1@L=740066545@",
+                  "extId": "740066545",
+                  "routeIdx": 6,
+                  "lon": 18.019866,
+                  "lat": 59.371217,
+                  "depTime": "02:59:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "02:59:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Järva krog (Solna kn)",
+                  "id": "A=1@O=Järva krog (Solna kn)@X=18013205@Y=59378417@U=1@L=740023254@",
+                  "extId": "740023254",
+                  "routeIdx": 7,
+                  "lon": 18.013205,
+                  "lat": 59.378417,
+                  "depTime": "03:01:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "03:01:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Arlanda Sky City Terminal 5 (Sigtuna kn)",
+                  "id": "A=1@O=Arlanda Sky City Terminal 5 (Sigtuna kn)@X=17930064@Y=59649127@U=1@L=740067392@",
+                  "extId": "740067392",
+                  "routeIdx": 8,
+                  "lon": 17.930064,
+                  "lat": 59.649127,
+                  "depTime": "03:28:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "03:28:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Arlanda terminal 2-3 buss (Sigtuna kn)",
+                  "id": "A=1@O=Arlanda terminal 2-3 buss (Sigtuna kn)@X=17929435@Y=59644264@U=1@L=740020671@",
+                  "extId": "740020671",
+                  "routeIdx": 9,
+                  "lon": 17.929435,
+                  "lat": 59.644264,
+                  "arrTime": "03:31:00",
+                  "arrDate": "2023-01-19"
+                }
+              ]
+            },
+            "JourneyDetail": {
+              "dayOfOperation": "2023-01-19",
+              "ref": "1|4119|1|1|19012023"
+            },
+            "idx": 1,
+            "name": "Länstrafik - Buss 593",
+            "number": "593",
+            "category": "BLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Uppsala Centralstation",
+            "directionFlag": "2",
+            "duration": "PT42M"
+          },
+          {
+            "Origin": {
+              "name": "Arlanda terminal 2-3 buss (Sigtuna kn)",
+              "type": "ST",
+              "id": "A=1@O=Arlanda terminal 2-3 buss (Sigtuna kn)@X=17929435@Y=59644264@U=1@L=740020671@",
+              "extId": "740020671",
+              "lon": 17.929435,
+              "lat": 59.644264,
+              "time": "03:31:00",
+              "date": "2023-01-19"
+            },
+            "Destination": {
+              "name": "Arlanda terminal 4 buss (Sigtuna kn)",
+              "type": "ST",
+              "id": "A=1@O=Arlanda terminal 4 buss (Sigtuna kn)@X=17928617@Y=59647815@U=1@L=740033206@",
+              "extId": "740033206",
+              "lon": 17.928617,
+              "lat": 59.647815,
+              "time": "05:06:00",
+              "date": "2023-01-19"
+            },
+            "GisRef": {
+              "ref": "H|1|TF$A=1@O=Arlanda terminal 2-3 buss (Sigtuna kn)@L=740020671@a=128@$A=1@O=Arlanda terminal 4 buss (Sigtuna kn)@L=740033206@a=128@$202301190331$202301190506$$$1$$$$$$"
+            },
+            "GisRoute": { "dist": 0, "durS": "PT1H35M", "dirGeo": 8 },
+            "Product": [
+              {
+                "icon": { "res": "prod_transf" },
+                "name": "Byten",
+                "internalName": "Byten"
+              }
+            ],
+            "idx": 2,
+            "name": "Byten",
+            "type": "TRSF",
+            "duration": "PT1H35M",
+            "dist": 0
+          },
+          {
+            "Origin": {
+              "name": "Arlanda terminal 4 buss (Sigtuna kn)",
+              "type": "ST",
+              "id": "A=1@O=Arlanda terminal 4 buss (Sigtuna kn)@X=17928617@Y=59647815@U=1@L=740033206@",
+              "extId": "740033206",
+              "lon": 17.928617,
+              "lat": 59.647815,
+              "routeIdx": 0,
+              "prognosisType": "PROGNOSED",
+              "time": "05:20:00",
+              "date": "2023-01-19"
+            },
+            "Destination": {
+              "name": "Örebro Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Örebro Centralstation@X=15211348@Y=59278942@U=1@L=740000133@",
+              "extId": "740000133",
+              "lon": 15.211348,
+              "lat": 59.278942,
+              "routeIdx": 2,
+              "prognosisType": "PROGNOSED",
+              "time": "08:05:00",
+              "date": "2023-01-19"
+            },
+            "Notes": {
+              "Note": [
+                {
+                  "value": "Obligatorisk platsbokning",
+                  "key": "AF",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 2,
+                  "txtN": "Obligatorisk platsbokning"
+                },
+                {
+                  "value": "WiFi",
+                  "key": "AW",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 2,
+                  "txtN": "WiFi"
+                }
+              ]
+            },
+            "JourneyDetailRef": { "ref": "1|1091|0|1|19012023" },
+            "JourneyStatus": "P",
+            "Product": [
+              {
+                "icon": { "res": "prod_gen" },
+                "name": "Flygtransfer - Buss 852",
+                "internalName": "Flygtransfer - Buss 852",
+                "displayNumber": "852",
+                "num": "852",
+                "line": "852",
+                "lineId": "1327085000094",
+                "catOut": "BAX",
+                "catIn": "BAX",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "BAX",
+                "catOutL": "Flygtransfer - Buss",
+                "operatorCode": "327",
+                "operator": "Vy Bus4You",
+                "admin": "327___",
+                "routeIdxFrom": 0,
+                "routeIdxTo": 2,
+                "matchId": "808;850;852"
+              }
+            ],
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Arlanda terminal 4 buss (Sigtuna kn)",
+                  "id": "A=1@O=Arlanda terminal 4 buss (Sigtuna kn)@X=17928617@Y=59647815@U=1@L=740033206@",
+                  "extId": "740033206",
+                  "routeIdx": 0,
+                  "lon": 17.928617,
+                  "lat": 59.647815,
+                  "depPrognosisType": "PROGNOSED",
+                  "depTime": "05:20:00",
+                  "depDate": "2023-01-19",
+                  "depDir": "Oslo Bussterminal (Norge)"
+                },
+                {
+                  "Notes": {
+                    "Note": [
+                      {
+                        "value": "Stannar endast för avstigande",
+                        "key": "text.realtime.stop.entry.disabled",
+                        "type": "R",
+                        "txtN": "Stannar endast för avstigande"
+                      }
+                    ]
+                  },
+                  "name": "Västerås Centralstation",
+                  "id": "A=1@O=Västerås Centralstation@X=16551712@Y=59607705@U=1@L=740000099@",
+                  "extId": "740000099",
+                  "routeIdx": 1,
+                  "lon": 16.551712,
+                  "lat": 59.607705,
+                  "arrTime": "06:45:00",
+                  "arrDate": "2023-01-19",
+                  "boarding": false
+                },
+                {
+                  "name": "Örebro Centralstation",
+                  "id": "A=1@O=Örebro Centralstation@X=15211348@Y=59278942@U=1@L=740000133@",
+                  "extId": "740000133",
+                  "routeIdx": 2,
+                  "lon": 15.211348,
+                  "lat": 59.278942,
+                  "arrTime": "08:05:00",
+                  "arrDate": "2023-01-19"
+                }
+              ]
+            },
+            "JourneyDetail": {
+              "dayOfOperation": "2023-01-19",
+              "ref": "1|1091|0|1|19012023"
+            },
+            "idx": 3,
+            "name": "Flygtransfer - Buss 852",
+            "number": "852",
+            "category": "BAX",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Oslo Bussterminal (Norge)",
+            "directionFlag": "2",
+            "duration": "PT2H45M"
+          },
+          {
+            "Origin": {
+              "name": "Örebro Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Örebro Centralstation@X=15211348@Y=59278942@U=1@L=740000133@",
+              "extId": "740000133",
+              "lon": 15.211348,
+              "lat": 59.278942,
+              "routeIdx": 0,
+              "prognosisType": "PROGNOSED",
+              "time": "10:11:00",
+              "date": "2023-01-19"
+            },
+            "Destination": {
+              "name": "Falköping Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Falköping Centralstation@X=13553791@Y=58176101@U=1@L=740000060@",
+              "extId": "740000060",
+              "lon": 13.553791,
+              "lat": 58.176101,
+              "routeIdx": 8,
+              "prognosisType": "PROGNOSED",
+              "time": "11:41:00",
+              "date": "2023-01-19"
+            },
+            "Notes": {
+              "Note": [
+                {
+                  "value": "Endast 2 klass",
+                  "key": "AA",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 8,
+                  "txtN": "Endast 2 klass"
+                },
+                {
+                  "value": "Ej reservering",
+                  "key": "AE",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 8,
+                  "txtN": "Ej reservering"
+                }
+              ]
+            },
+            "JourneyDetailRef": { "ref": "1|25534|0|1|19012023" },
+            "JourneyStatus": "P",
+            "Product": [
+              {
+                "icon": { "res": "prod_gen" },
+                "name": "Länstrafik - Tåg 7227",
+                "internalName": "Länstrafik - Tåg 7227",
+                "displayNumber": "7227",
+                "num": "7227",
+                "line": "7227",
+                "lineId": "1279000000052",
+                "catOut": "JLT",
+                "catIn": "JLT",
+                "catCode": "4",
+                "cls": "16",
+                "catOutS": "JLT",
+                "catOutL": "Länstrafik - Tåg",
+                "operatorCode": "279",
+                "operator": "Västtrafik",
+                "admin": "279___",
+                "routeIdxFrom": 0,
+                "routeIdxTo": 8,
+                "matchId": "T23C001 N-T LT;T23C001 N-T LT;7227"
+              }
+            ],
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Örebro Centralstation",
+                  "id": "A=1@O=Örebro Centralstation@X=15211348@Y=59278942@U=1@L=740000133@",
+                  "extId": "740000133",
+                  "routeIdx": 0,
+                  "lon": 15.211348,
+                  "lat": 59.278942,
+                  "depPrognosisType": "PROGNOSED",
+                  "depTime": "10:11:00",
+                  "depDate": "2023-01-19",
+                  "depDir": "Falköping Centralstation"
+                },
+                {
+                  "name": "Örebro Södra station",
+                  "id": "A=1@O=Örebro Södra station@X=15202332@Y=59269989@U=1@L=740000361@",
+                  "extId": "740000361",
+                  "routeIdx": 1,
+                  "lon": 15.202332,
+                  "lat": 59.269989,
+                  "depTime": "10:13:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "10:13:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Kumla station",
+                  "id": "A=1@O=Kumla station@X=15140280@Y=59126377@U=1@L=740000192@",
+                  "extId": "740000192",
+                  "routeIdx": 2,
+                  "lon": 15.14028,
+                  "lat": 59.126377,
+                  "depTime": "10:23:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "10:23:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Hallsberg station",
+                  "id": "A=1@O=Hallsberg station@X=15110382@Y=59067102@U=1@L=740000077@",
+                  "extId": "740000077",
+                  "routeIdx": 3,
+                  "lon": 15.110382,
+                  "lat": 59.067102,
+                  "depTime": "10:34:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "10:31:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Laxå station",
+                  "id": "A=1@O=Laxå station@X=14616658@Y=58989391@U=1@L=740000194@",
+                  "extId": "740000194",
+                  "routeIdx": 4,
+                  "lon": 14.616658,
+                  "lat": 58.989391,
+                  "depTime": "10:49:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "10:49:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Töreboda station",
+                  "id": "A=1@O=Töreboda station@X=14128391@Y=58706024@U=1@L=740000183@",
+                  "extId": "740000183",
+                  "routeIdx": 5,
+                  "lon": 14.128391,
+                  "lat": 58.706024,
+                  "depTime": "11:08:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "11:08:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Skövde Centralstation",
+                  "id": "A=1@O=Skövde Centralstation@X=13853195@Y=58390898@U=1@L=740000008@",
+                  "extId": "740000008",
+                  "routeIdx": 6,
+                  "lon": 13.853195,
+                  "lat": 58.390898,
+                  "depTime": "11:25:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "11:23:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Stenstorp station (Falköping kn)",
+                  "id": "A=1@O=Stenstorp station (Falköping kn)@X=13714797@Y=58273670@U=1@L=740000924@",
+                  "extId": "740000924",
+                  "routeIdx": 7,
+                  "lon": 13.714797,
+                  "lat": 58.27367,
+                  "depTime": "11:33:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "11:33:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Falköping Centralstation",
+                  "id": "A=1@O=Falköping Centralstation@X=13553791@Y=58176101@U=1@L=740000060@",
+                  "extId": "740000060",
+                  "routeIdx": 8,
+                  "lon": 13.553791,
+                  "lat": 58.176101,
+                  "arrPrognosisType": "PROGNOSED",
+                  "arrTime": "11:41:00",
+                  "arrDate": "2023-01-19"
+                }
+              ]
+            },
+            "JourneyDetail": {
+              "dayOfOperation": "2023-01-19",
+              "ref": "1|25534|0|1|19012023"
+            },
+            "idx": 4,
+            "name": "Länstrafik - Tåg 7227",
+            "number": "7227",
+            "category": "JLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Falköping Centralstation",
+            "directionFlag": "1",
+            "duration": "PT1H30M"
+          },
+          {
+            "Origin": {
+              "name": "Falköping Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Falköping Centralstation@X=13553791@Y=58176101@U=1@L=740000060@",
+              "extId": "740000060",
+              "lon": 13.553791,
+              "lat": 58.176101,
+              "routeIdx": 8,
+              "prognosisType": "PROGNOSED",
+              "time": "11:52:00",
+              "date": "2023-01-19"
+            },
+            "Destination": {
+              "name": "Göteborg Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Göteborg Centralstation@X=11973479@Y=57708895@U=1@L=740000002@",
+              "extId": "740000002",
+              "lon": 11.973479,
+              "lat": 57.708895,
+              "routeIdx": 13,
+              "prognosisType": "PROGNOSED",
+              "time": "13:00:00",
+              "date": "2023-01-19"
+            },
+            "Notes": {
+              "Note": [
+                {
+                  "value": "Endast 2 klass",
+                  "key": "AA",
+                  "type": "A",
+                  "routeIdxFrom": 8,
+                  "routeIdxTo": 13,
+                  "txtN": "Endast 2 klass"
+                },
+                {
+                  "value": "Ej reservering",
+                  "key": "AE",
+                  "type": "A",
+                  "routeIdxFrom": 8,
+                  "routeIdxTo": 13,
+                  "txtN": "Ej reservering"
+                }
+              ]
+            },
+            "JourneyDetailRef": { "ref": "1|70589|0|1|19012023" },
+            "JourneyStatus": "P",
+            "Product": [
+              {
+                "icon": { "res": "prod_gen" },
+                "name": "Länstrafik - Tåg 7292",
+                "internalName": "Länstrafik - Tåg 7292",
+                "displayNumber": "7292",
+                "num": "7292",
+                "line": "7292",
+                "lineId": "1279000000639",
+                "catOut": "JLT",
+                "catIn": "JLT",
+                "catCode": "4",
+                "cls": "16",
+                "catOutS": "JLT",
+                "catOutL": "Länstrafik - Tåg",
+                "operatorCode": "279",
+                "operator": "Västtrafik",
+                "admin": "279___",
+                "routeIdxFrom": 8,
+                "routeIdxTo": 13,
+                "matchId": "T23C001 G-N LT;T23C001 G-N LT;7292"
+              }
+            ],
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Falköping Centralstation",
+                  "id": "A=1@O=Falköping Centralstation@X=13553791@Y=58176101@U=1@L=740000060@",
+                  "extId": "740000060",
+                  "routeIdx": 8,
+                  "lon": 13.553791,
+                  "lat": 58.176101,
+                  "depTime": "11:52:00",
+                  "depDate": "2023-01-19",
+                  "depDir": "Göteborg Centralstation"
+                },
+                {
+                  "name": "Floby station (Falköping kn)",
+                  "id": "A=1@O=Floby station (Falköping kn)@X=13335300@Y=58139308@U=1@L=740000036@",
+                  "extId": "740000036",
+                  "routeIdx": 9,
+                  "lon": 13.3353,
+                  "lat": 58.139308,
+                  "depTime": "11:59:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "11:59:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Herrljunga station",
+                  "id": "A=1@O=Herrljunga station@X=13021279@Y=58079188@U=1@L=740000040@",
+                  "extId": "740000040",
+                  "routeIdx": 10,
+                  "lon": 13.021279,
+                  "lat": 58.079188,
+                  "depTime": "12:10:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "12:10:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Vårgårda station",
+                  "id": "A=1@O=Vårgårda station@X=12810285@Y=58031204@U=1@L=740000569@",
+                  "extId": "740000569",
+                  "routeIdx": 11,
+                  "lon": 12.810285,
+                  "lat": 58.031204,
+                  "depTime": "12:20:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "12:20:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Alingsås station",
+                  "id": "A=1@O=Alingsås station@X=12532491@Y=57926857@U=1@L=740000018@",
+                  "extId": "740000018",
+                  "routeIdx": 12,
+                  "lon": 12.532491,
+                  "lat": 57.926857,
+                  "depTime": "12:31:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "12:31:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Göteborg Centralstation",
+                  "id": "A=1@O=Göteborg Centralstation@X=11973479@Y=57708895@U=1@L=740000002@",
+                  "extId": "740000002",
+                  "routeIdx": 13,
+                  "lon": 11.973479,
+                  "lat": 57.708895,
+                  "arrPrognosisType": "PROGNOSED",
+                  "arrTime": "13:00:00",
+                  "arrDate": "2023-01-19"
+                }
+              ]
+            },
+            "JourneyDetail": {
+              "dayOfOperation": "2023-01-19",
+              "ref": "1|70589|0|1|19012023"
+            },
+            "idx": 5,
+            "name": "Länstrafik - Tåg 7292",
+            "number": "7292",
+            "category": "JLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Göteborg Centralstation",
+            "directionFlag": "2",
+            "duration": "PT1H8M"
+          },
+          {
+            "Origin": {
+              "name": "Göteborg Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Göteborg Centralstation@X=11973479@Y=57708895@U=1@L=740000002@",
+              "extId": "740000002",
+              "lon": 11.973479,
+              "lat": 57.708895,
+              "time": "13:00:00",
+              "date": "2023-01-19"
+            },
+            "Destination": {
+              "name": "Göteborg Nils Ericsonterminal",
+              "type": "ST",
+              "id": "A=1@O=Göteborg Nils Ericsonterminal@X=11971852@Y=57710271@U=1@L=740020483@",
+              "extId": "740020483",
+              "lon": 11.971852,
+              "lat": 57.710271,
+              "time": "13:15:00",
+              "date": "2023-01-19"
+            },
+            "GisRef": {
+              "ref": "H|1|W$A=1@O=Göteborg Centralstation@L=740000002@a=128@$A=1@O=Göteborg Nils Ericsonterminal@L=740020483@a=128@$202301191300$202301191315$$$1$$$$$$"
+            },
+            "GisRoute": { "dist": 0, "durS": "PT15M", "dirGeo": 10 },
+            "Product": [
+              {
+                "icon": { "res": "prod_walk" },
+                "name": "Promenad",
+                "internalName": "Promenad"
+              }
+            ],
+            "idx": 6,
+            "name": "Promenad",
+            "type": "WALK",
+            "duration": "PT15M",
+            "dist": 0
+          },
+          {
+            "Origin": {
+              "name": "Göteborg Nils Ericsonterminal",
+              "type": "ST",
+              "id": "A=1@O=Göteborg Nils Ericsonterminal@X=11971852@Y=57710271@U=1@L=740020483@",
+              "extId": "740020483",
+              "lon": 11.971852,
+              "lat": 57.710271,
+              "routeIdx": 1,
+              "prognosisType": "PROGNOSED",
+              "time": "13:15:00",
+              "date": "2023-01-19"
+            },
+            "Destination": {
+              "name": "Malmö Norra Vallgatan",
+              "type": "ST",
+              "id": "A=1@O=Malmö Norra Vallgatan@X=13000083@Y=55607918@U=1@L=740072050@",
+              "extId": "740072050",
+              "lon": 13.000083,
+              "lat": 55.607918,
+              "routeIdx": 5,
+              "prognosisType": "PROGNOSED",
+              "time": "17:10:00",
+              "date": "2023-01-19"
+            },
+            "Notes": {
+              "Note": [
+                {
+                  "value": "Obligatorisk platsbokning",
+                  "key": "AF",
+                  "type": "A",
+                  "routeIdxFrom": 1,
+                  "routeIdxTo": 5,
+                  "txtN": "Obligatorisk platsbokning"
+                },
+                {
+                  "value": "WiFi",
+                  "key": "AW",
+                  "type": "A",
+                  "routeIdxFrom": 1,
+                  "routeIdxTo": 5,
+                  "txtN": "WiFi"
+                }
+              ]
+            },
+            "JourneyDetailRef": { "ref": "1|3631|0|1|19012023" },
+            "JourneyStatus": "P",
+            "Product": [
+              {
+                "icon": { "res": "prod_gen" },
+                "name": "Expressbuss 602",
+                "internalName": "Expressbuss 602",
+                "displayNumber": "602",
+                "num": "602",
+                "line": "602",
+                "lineId": "1327060000004",
+                "catOut": "BXB",
+                "catIn": "BXB",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "BXB",
+                "catOutL": "Expressbuss",
+                "operatorCode": "327",
+                "operator": "Vy Bus4You",
+                "admin": "327___",
+                "routeIdxFrom": 1,
+                "routeIdxTo": 5,
+                "matchId": "653;600;602"
+              }
+            ],
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Göteborg Nils Ericsonterminal",
+                  "id": "A=1@O=Göteborg Nils Ericsonterminal@X=11971852@Y=57710271@U=1@L=740020483@",
+                  "extId": "740020483",
+                  "routeIdx": 1,
+                  "lon": 11.971852,
+                  "lat": 57.710271,
+                  "depTime": "13:15:00",
+                  "depDate": "2023-01-19",
+                  "depDir": "Malmö Norra Vallgatan"
+                },
+                {
+                  "name": "Halmstad Centralstation",
+                  "id": "A=1@O=Halmstad Centralstation@X=12864840@Y=56669275@U=1@L=740000080@",
+                  "extId": "740000080",
+                  "routeIdx": 2,
+                  "lon": 12.86484,
+                  "lat": 56.669275,
+                  "depTime": "14:55:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "14:55:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Helsingborg Centralstation",
+                  "id": "A=1@O=Helsingborg Centralstation@X=12694261@Y=56044408@U=1@L=740000044@",
+                  "extId": "740000044",
+                  "routeIdx": 3,
+                  "lon": 12.694261,
+                  "lat": 56.044408,
+                  "depTime": "16:00:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "16:00:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Lund Centralstation",
+                  "id": "A=1@O=Lund Centralstation@X=13186897@Y=55708094@U=1@L=740000120@",
+                  "extId": "740000120",
+                  "routeIdx": 4,
+                  "lon": 13.186897,
+                  "lat": 55.708094,
+                  "depTime": "16:45:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "16:45:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Malmö Norra Vallgatan",
+                  "id": "A=1@O=Malmö Norra Vallgatan@X=13000083@Y=55607918@U=1@L=740072050@",
+                  "extId": "740072050",
+                  "routeIdx": 5,
+                  "lon": 13.000083,
+                  "lat": 55.607918,
+                  "arrPrognosisType": "PROGNOSED",
+                  "arrTime": "17:10:00",
+                  "arrDate": "2023-01-19"
+                }
+              ]
+            },
+            "JourneyDetail": {
+              "dayOfOperation": "2023-01-19",
+              "ref": "1|3631|0|1|19012023"
+            },
+            "idx": 7,
+            "name": "Expressbuss 602",
+            "number": "602",
+            "category": "BXB",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Malmö Norra Vallgatan",
+            "directionFlag": "1",
+            "duration": "PT3H55M"
+          },
+          {
+            "Origin": {
+              "name": "Malmö Norra Vallgatan",
+              "type": "ST",
+              "id": "A=1@O=Malmö Norra Vallgatan@X=13000083@Y=55607918@U=1@L=740072050@",
+              "extId": "740072050",
+              "lon": 13.000083,
+              "lat": 55.607918,
+              "time": "17:10:00",
+              "date": "2023-01-19"
+            },
+            "Destination": {
+              "name": "Malmö Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Malmö Centralstation@X=13000910@Y=55609456@U=1@L=740000003@",
+              "extId": "740000003",
+              "lon": 13.00091,
+              "lat": 55.609456,
+              "time": "17:14:00",
+              "date": "2023-01-19"
+            },
+            "GisRef": {
+              "ref": "G|1|G@F|A=1@O=Malmö Norra Vallgatan@X=13000083@Y=55607918@U=1@L=740072050@|A=1@O=Malmö Centralstation@X=13000910@Y=55609456@U=1@L=740000003@|19012023|171000|171400|fb|ft@0@2000@120@1@100@1@@0@@@@@false@0@-1@0@-1@-1@$f@$f@$f@$f@$f@$§bt@0@2000@120@1@100@1@@0@@@@@false@0@-1@0@-1@-1@$f@$f@$f@$f@$f@$§tt@0@5000@120@1@100@1@@0@@@@@false@0@-1@0@-1@-1@$f@$f@$f@$f@$f@$§||||"
+            },
+            "GisRoute": { "dist": 287, "durS": "PT4M", "dirGeo": 0 },
+            "Product": [
+              {
+                "icon": { "res": "prod_walk" },
+                "name": "Promenad",
+                "internalName": "Promenad"
+              }
+            ],
+            "idx": 8,
+            "name": "Promenad",
+            "type": "WALK",
+            "duration": "PT4M",
+            "dist": 287
+          }
+        ]
+      },
+      "calculation": "INITIAL",
+      "TripStatus": {
+        "detour": true,
+        "economic": true,
+        "convenient": true,
+        "hintCode": 455,
+        "unsharp": true
+      },
+      "idx": 4,
+      "tripId": "C-4",
+      "ctxRecon": "¶HKI¶G@F$A=1@O=Stockholm Centralstation@L=740000001@a=128@$A=1@O=Stockholm Citytermin Kungsbron@L=740001541@a=128@$202301190243$202301190249$$$1$$$$$$§T$A=1@O=Stockholm Citytermin Kungsbron@L=740001541@a=128@$A=1@O=Arlanda terminal 2-3 buss (Sigtuna kn)@L=740020671@a=128@$202301190249$202301190331$BLT  593$$1$$$$$$§TF$A=1@O=Arlanda terminal 2-3 buss (Sigtuna kn)@L=740020671@a=128@$A=1@O=Arlanda terminal 4 buss (Sigtuna kn)@L=740033206@a=128@$202301190331$202301190506$$$1$$$$$$§T$A=1@O=Arlanda terminal 4 buss (Sigtuna kn)@L=740033206@a=128@$A=1@O=Örebro Centralstation@L=740000133@a=128@$202301190520$202301190805$BAX  852$$1$$$$$$§T$A=1@O=Örebro Centralstation@L=740000133@a=128@$A=1@O=Falköping Centralstation@L=740000060@a=128@$202301191011$202301191141$JLT 7227$$1$$$$$$§T$A=1@O=Falköping Centralstation@L=740000060@a=128@$A=1@O=Göteborg Centralstation@L=740000002@a=128@$202301191152$202301191300$JLT 7292$$1$$$$$$§W$A=1@O=Göteborg Centralstation@L=740000002@a=128@$A=1@O=Göteborg Nils Ericsonterminal@L=740020483@a=128@$202301191300$202301191315$$$1$$$$$$§T$A=1@O=Göteborg Nils Ericsonterminal@L=740020483@a=128@$A=1@O=Malmö Norra Vallgatan@L=740072050@a=128@$202301191315$202301191710$BXB  602$$1$$$$$$§G@F$A=1@O=Malmö Norra Vallgatan@L=740072050@a=128@$A=1@O=Malmö Centralstation@L=740000003@a=128@$202301191710$202301191714$$$1$$$$$$¶GP¶ft@0@2000@120@1@100@1@@0@@@@@false@0@-1@0@-1@-1@$f@$f@$f@$f@$f@$§bt@0@2000@120@1@100@1@@0@@@@@false@0@-1@0@-1@-1@$f@$f@$f@$f@$f@$§tt@0@5000@120@1@100@1@@0@@@@@false@0@-1@0@-1@-1@$f@$f@$f@$f@$f@$§¶KRCC¶#VE#1#",
+      "duration": "PT14H31M",
+      "rtDuration": "PT14H31M",
+      "checksum": "e5731d59_3",
+      "transferCount": 4
+    },
+    {
+      "Origin": {
+        "name": "Stockholm Centralstation",
+        "type": "ST",
+        "id": "A=1@O=Stockholm Centralstation@X=18058151@Y=59330136@U=1@L=740000001@",
+        "extId": "740000001",
+        "lon": 18.058151,
+        "lat": 59.330136,
+        "routeIdx": 0,
+        "prognosisType": "PROGNOSED",
+        "time": "05:21:00",
+        "date": "2023-01-19"
+      },
+      "Destination": {
+        "name": "Malmö Centralstation",
+        "type": "ST",
+        "id": "A=1@O=Malmö Centralstation@X=13000910@Y=55609456@U=1@L=740000003@",
+        "extId": "740000003",
+        "lon": 13.00091,
+        "lat": 55.609456,
+        "routeIdx": 8,
+        "prognosisType": "PROGNOSED",
+        "time": "09:48:00",
+        "date": "2023-01-19"
+      },
+      "ServiceDays": [
+        {
+          "planningPeriodBegin": "2023-01-14",
+          "planningPeriodEnd": "2023-04-16",
+          "sDaysR": "mån - fre",
+          "sDaysI": "utom 7., 10. apr",
+          "sDaysB": "3E7CF9F3E7CF9F3E7CF9E1E0"
+        }
+      ],
+      "LegList": {
+        "Leg": [
+          {
+            "Origin": {
+              "name": "Stockholm Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Stockholm Centralstation@X=18058151@Y=59330136@U=1@L=740000001@",
+              "extId": "740000001",
+              "lon": 18.058151,
+              "lat": 59.330136,
+              "routeIdx": 0,
+              "prognosisType": "PROGNOSED",
+              "time": "05:21:00",
+              "date": "2023-01-19"
+            },
+            "Destination": {
+              "name": "Malmö Centralstation",
+              "type": "ST",
+              "id": "A=1@O=Malmö Centralstation@X=13000910@Y=55609456@U=1@L=740000003@",
+              "extId": "740000003",
+              "lon": 13.00091,
+              "lat": 55.609456,
+              "routeIdx": 8,
+              "prognosisType": "PROGNOSED",
+              "time": "09:48:00",
+              "date": "2023-01-19"
+            },
+            "Notes": {
+              "Note": [
+                {
+                  "value": "X2000",
+                  "key": "VX",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 8,
+                  "txtN": "X2000"
+                },
+                {
+                  "value": "Mat 1 klass",
+                  "key": "A1",
+                  "type": "A",
+                  "routeIdxFrom": 6,
+                  "routeIdxTo": 8,
+                  "txtN": "Mat 1 klass"
+                },
+                {
+                  "value": "Bistrovagn",
+                  "key": "AD",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 8,
+                  "txtN": "Bistrovagn"
+                },
+                {
+                  "value": "Obligatorisk platsbokning",
+                  "key": "AF",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 8,
+                  "txtN": "Obligatorisk platsbokning"
+                },
+                {
+                  "value": "Rullstolslyft",
+                  "key": "AN",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 8,
+                  "txtN": "Rullstolslyft"
+                },
+                {
+                  "value": "WiFi",
+                  "key": "AW",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 8,
+                  "txtN": "WiFi"
+                },
+                {
+                  "value": "Förbeställd frukost",
+                  "key": "AZ",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 6,
+                  "txtN": "Förbeställd frukost"
+                },
+                {
+                  "value": "2 klass lugn",
+                  "key": "BL",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 8,
+                  "txtN": "2 klass lugn"
+                },
+                {
+                  "value": "Eluttag vid sittplats",
+                  "key": "EL",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 8,
+                  "txtN": "Eluttag vid sittplats"
+                },
+                {
+                  "value": "Frukost 1 klass",
+                  "key": "SF",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 6,
+                  "txtN": "Frukost 1 klass"
+                },
+                {
+                  "value": "Maträtt",
+                  "key": "SM",
+                  "type": "A",
+                  "routeIdxFrom": 6,
+                  "routeIdxTo": 8,
+                  "txtN": "Maträtt"
+                },
+                {
+                  "value": "1 klass med extra komfort",
+                  "key": "SU",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 8,
+                  "txtN": "1 klass med extra komfort"
+                },
+                {
+                  "value": "Kaffebuffé 1 klass",
+                  "key": "SZ",
+                  "type": "A",
+                  "routeIdxFrom": 0,
+                  "routeIdxTo": 8,
+                  "txtN": "Kaffebuffé 1 klass"
+                }
+              ]
+            },
+            "JourneyDetailRef": { "ref": "1|50469|0|1|19012023" },
+            "JourneyStatus": "P",
+            "Product": [
+              {
+                "icon": { "res": "prod_gen" },
+                "name": "Snabbtåg 519",
+                "internalName": "Snabbtåg 519",
+                "displayNumber": "519",
+                "num": "519",
+                "line": "519",
+                "lineId": "1074000000467",
+                "catOut": "JST",
+                "catIn": "JST",
+                "catCode": "1",
+                "cls": "2",
+                "catOutS": "JST",
+                "catOutL": "Snabbtåg",
+                "operatorCode": "74",
+                "operator": "SJ",
+                "admin": "074___",
+                "routeIdxFrom": 0,
+                "routeIdxTo": 8,
+                "matchId": "S23C001 CST-M ST;S23C001 CST-M ST;519"
+              }
+            ],
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Stockholm Centralstation",
+                  "id": "A=1@O=Stockholm Centralstation@X=18058151@Y=59330136@U=1@L=740000001@",
+                  "extId": "740000001",
+                  "routeIdx": 0,
+                  "lon": 18.058151,
+                  "lat": 59.330136,
+                  "depPrognosisType": "PROGNOSED",
+                  "depTime": "05:21:00",
+                  "depDate": "2023-01-19",
+                  "depDir": "Malmö Centralstation"
+                },
+                {
+                  "name": "Norrköping Centralstation",
+                  "id": "A=1@O=Norrköping Centralstation@X=16183343@Y=58596625@U=1@L=740000007@",
+                  "extId": "740000007",
+                  "routeIdx": 1,
+                  "lon": 16.183343,
+                  "lat": 58.596625,
+                  "depTime": "06:33:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "06:32:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Linköping Centralstation",
+                  "id": "A=1@O=Linköping Centralstation@X=15624960@Y=58416634@U=1@L=740000009@",
+                  "extId": "740000009",
+                  "routeIdx": 2,
+                  "lon": 15.62496,
+                  "lat": 58.416634,
+                  "depTime": "06:59:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "06:57:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Nässjö Centralstation",
+                  "id": "A=1@O=Nässjö Centralstation@X=14693983@Y=57652443@U=1@L=740000140@",
+                  "extId": "740000140",
+                  "routeIdx": 3,
+                  "lon": 14.693983,
+                  "lat": 57.652443,
+                  "depTime": "07:49:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "07:48:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Alvesta station",
+                  "id": "A=1@O=Alvesta station@X=14556322@Y=56898778@U=1@L=740000004@",
+                  "extId": "740000004",
+                  "routeIdx": 4,
+                  "lon": 14.556322,
+                  "lat": 56.898778,
+                  "depTime": "08:23:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "08:22:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Älmhult station",
+                  "id": "A=1@O=Älmhult station@X=14136985@Y=56551426@U=1@L=740000045@",
+                  "extId": "740000045",
+                  "routeIdx": 5,
+                  "lon": 14.136985,
+                  "lat": 56.551426,
+                  "depTime": "08:42:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "08:42:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Hässleholm Centralstation",
+                  "id": "A=1@O=Hässleholm Centralstation@X=13763141@Y=56157762@U=1@L=740000006@",
+                  "extId": "740000006",
+                  "routeIdx": 6,
+                  "lon": 13.763141,
+                  "lat": 56.157762,
+                  "depTime": "09:05:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "09:05:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Lund Centralstation",
+                  "id": "A=1@O=Lund Centralstation@X=13186897@Y=55708094@U=1@L=740000120@",
+                  "extId": "740000120",
+                  "routeIdx": 7,
+                  "lon": 13.186897,
+                  "lat": 55.708094,
+                  "depTime": "09:35:00",
+                  "depDate": "2023-01-19",
+                  "arrTime": "09:34:00",
+                  "arrDate": "2023-01-19"
+                },
+                {
+                  "name": "Malmö Centralstation",
+                  "id": "A=1@O=Malmö Centralstation@X=13000910@Y=55609456@U=1@L=740000003@",
+                  "extId": "740000003",
+                  "routeIdx": 8,
+                  "lon": 13.00091,
+                  "lat": 55.609456,
+                  "arrPrognosisType": "PROGNOSED",
+                  "arrTime": "09:48:00",
+                  "arrDate": "2023-01-19"
+                }
+              ]
+            },
+            "JourneyDetail": {
+              "dayOfOperation": "2023-01-19",
+              "ref": "1|50469|0|1|19012023"
+            },
+            "idx": 0,
+            "name": "Snabbtåg 519",
+            "number": "519",
+            "category": "JST",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Malmö Centralstation",
+            "directionFlag": "1",
+            "duration": "PT4H27M"
+          }
+        ]
+      },
+      "calculation": "INITIAL",
+      "TripStatus": { "hintCode": 0 },
+      "idx": 5,
+      "tripId": "C-5",
+      "ctxRecon": "¶HKI¶T$A=1@O=Stockholm Centralstation@L=740000001@a=128@$A=1@O=Malmö Centralstation@L=740000003@a=128@$202301190521$202301190948$JST  519$$1$$$$$$¶KRCC¶#VE#1#",
+      "duration": "PT4H27M",
+      "rtDuration": "PT4H27M",
+      "checksum": "a861e2a3_3"
+    }
+  ],
+  "ResultStatus": { "timeDiffCritical": false },
+  "TechnicalMessages": {
+    "TechnicalMessage": [
+      { "value": "2023-01-18 20:20:08", "key": "requestTime" }
+    ]
+  },
+  "serverVersion": "2.25.0",
+  "dialectVersion": "2.25",
+  "planRtTs": "1970-01-01T01:00:00.000+01:00",
+  "requestId": "apkxsigw4gk2gk4k",
+  "scrB": "2|OB|MTµ14µ10037µ10037µ10445µ10445µ0µ0µ65713µ9860µ1µ0µ98µ0µ0µ-2147483648µ1µ2|PDHµ470ca0a9f012cd27f16b5018717a851c|RDµ18012023|RTµ202008|USµ1",
+  "scrF": "2|OF|MTµ14µ10401µ10401µ10668µ10668µ0µ0µ1789µ10038µ6µ0µ1058µ0µ0µ-2147483648µ1µ2|PDHµ470ca0a9f012cd27f16b5018717a851c|RDµ18012023|RTµ202008|USµ1"
+}
